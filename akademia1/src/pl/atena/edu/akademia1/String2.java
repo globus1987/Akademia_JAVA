@@ -40,7 +40,7 @@ public class String2 {
 		System.out.println(kursanci.toUpperCase());
 		System.out.println(kursanci.toLowerCase());
 		System.out.println(kursanci.indexOf("l"));
-		
+				
 		String adam1="adam";
 		String adam2="adam jest boski".substring(0, 4);
 		System.out.println(adam2);
@@ -49,7 +49,7 @@ public class String2 {
 		
 		boolean test2=adam1.equals(adam2);
 		System.out.println(test2);
-
+		
 	}
 
 }

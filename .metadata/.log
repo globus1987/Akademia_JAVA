@@ -427,3 +427,6 @@ org.eclipse.recommenders.utils.Logs$LogTraceException
 
 !ENTRY org.eclipse.jface.text 2 0 2017-09-10 13:54:37.884
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.equinox.security 1 0 2017-09-10 14:53:07.229
+!MESSAGE New keyring password generated. 
