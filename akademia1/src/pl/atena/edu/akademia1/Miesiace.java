@@ -63,7 +63,7 @@ public class Miesiace {
 		if (miesiacLiczba==0) {
 			return;
 		}
-		if (sprawdzMiesiac(miesiacLiczba)) {
+		if (sprawdzMiesiac(miesiacLiczba)) {d
 			System.out.println("podany miesi¹c to " + jakiToMiesiac(miesiacLiczba));
 		} else {
 			System.out.println("Ta liczba nie odpowiada ¿adnemu z miesiêcy");
