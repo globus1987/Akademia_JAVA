@@ -30,7 +30,7 @@ public class PoleOkregu {
 		}
 		double pole=Math.PI*Math.pow(promien, 2);
 		System.out.println("Promieñ:"+promien+", Pole:"+pole);
-
+		
 	}
 
 }
