@@ -72,7 +72,7 @@ public class WitajSwiecie {
 		final double test = 3.14;
 		int liczba1 = 1222;
 		liczba1++;
-		
+		liczba1+=test;
 		System.out.println(liczba1);
 		System.out.println(Zwierzak.KOT);
 
@@ -103,7 +103,58 @@ public class WitajSwiecie {
 		int indeks2 = 0;
 		System.out.println(tablica[++indeks2]); // najpierw inkrementacja potem zwrotka
 		System.out.println(tablica[indeks2]);
+		//arytmetyka
+		double z =Math.pow(5, 2);
+		System.out.println(z);
+		
+		int test2 = 1000000000*3;
+		System.out.println(test2);
+		int test3=Math.multiplyExact(10000000, 3);
+		
+		//konwersje typów
+		
+		double x=3.75;
+		int n = (int)x;
+		System.out.println(n);
+		
+		int i1=54;
+		double d1=2.21+i1;
+		System.out.println(d1);
+		char c1 = 'K'+1;
+		System.out.println(c1);
+		
+		int i2='J'+1;
+		System.out.println(i2);
+		byte b1=5;
+		short s1=23;
+		int i4=1234;
+		long l3=111111;
+		l3+=i4+s1+b1;
+		System.out.println(l3);
+		byte b2 = (byte)(b1+s1+i4+l3);
+		System.out.println(b2);
+		
+		byte b=0,c=5;
+		boolean bo1=b==0;
+		boolean bo2=b!=0;
+		boolean bo3=b>0;
+		boolean bo4=b<0;
+		boolean bo5=b>=0;
+		boolean bo6=b<=0;
+		boolean bo7=b<=0&&c>=5;
+		boolean bo8=b<=0||c>5;
+		String testowy=b==0?"zero":"coœ innego";
+		System.out.println(bo3&&bo4);
+		System.out.println(bo5||bo4);
+		System.out.println(testowy);
+		b=1;
+		testowy=b==0?"zero":"coœ innego";
+		System.out.println(testowy);
+		
+		//Zadanie 
 
+		
+				
 	}
 
 }
