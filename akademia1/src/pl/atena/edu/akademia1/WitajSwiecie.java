@@ -72,8 +72,38 @@ public class WitajSwiecie {
 		final double test = 3.14;
 		int liczba1 = 1222;
 		liczba1++;
+		
 		System.out.println(liczba1);
 		System.out.println(Zwierzak.KOT);
+
+		int l1 = 1234, l2 = 4321;
+		System.out.println(l1 + l2);
+		System.out.println(l1 - l2);
+		System.out.println(l1 * l2);
+		System.out.println(l2 / l1);
+		System.out.println(17 % 3);
+		
+		
+		int liczba4 = 123;
+		liczba4++;
+		System.out.println(liczba4);
+		liczba4--;
+		System.out.println(liczba4);
+		liczba4 -= 12;
+		System.out.println(liczba4);
+		liczba4 += 32;
+		System.out.println(liczba4);
+		
+		String[] tablica = { "raz", "dwa" };
+		
+		int indeks = 0;
+		System.out.println(tablica[indeks++]); // najpierw zwrotka, potem inkrementacja
+		System.out.println(tablica[indeks]);
+
+		int indeks2 = 0;
+		System.out.println(tablica[++indeks2]); // najpierw inkrementacja potem zwrotka
+		System.out.println(tablica[indeks2]);
+
 	}
 
 }
