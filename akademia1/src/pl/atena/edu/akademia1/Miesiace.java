@@ -32,7 +32,7 @@ public class Miesiace {
 		case 12:
 			return "Grudzieñ";
 		default:
-			return "nie ma miesiêcy wiêcej ni¿ 12!!!";
+			return "Ta liczba nie odpowiada ¿adnemu z miesiêcy";
 		}
 	}
 
