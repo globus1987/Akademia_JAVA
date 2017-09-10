@@ -4,8 +4,10 @@ import java.util.Scanner;
 
 public class Miesiace {
 	private static Scanner scanner = new Scanner(System.in);
+	public final static int MIN_MONTH = 1;
+	public final static int MAX_MONTH = 12;
 
-	public static String miesiac(int liczba) {
+	public static String jakiToMiesiac(int liczba) {
 		switch (liczba) {
 		case 1:
 			return "Styczeñ";
@@ -32,23 +34,41 @@ public class Miesiace {
 		case 12:
 			return "Grudzieñ";
 		default:
-			return "Ta liczba nie odpowiada ¿adnemu z miesiêcy";
+			return "???";
 		}
+	}
+
+	public static boolean sprawdzMiesiac(int liczba) {
+		if (liczba < MIN_MONTH || liczba > MAX_MONTH) {
+			return false;
+		}
+		return true;
+	}
+
+	public static int pobierzNumerMiesiaca() {
+		int miesiacLiczba = 0;
+		System.out.println("podaj nr miesi¹ca");
+		try {
+			miesiacLiczba = Integer.valueOf(scanner.nextLine());
+		} catch (Exception e) {
+			System.out.println("to nie numer miesiaca!!!");
+			return 0;
+		}
+		return miesiacLiczba;
 	}
 
 	public static void main(String[] args) {
 
-		int miesiacLiczba = 0;
-		System.out.println("podaj nr miesi¹ca");
-		String mies = scanner.nextLine();
-		try {
-			miesiacLiczba = Integer.valueOf(mies);
-		} catch (Exception e) {
-			System.out.println("to nie numer miesiaca!!!");
+		int miesiacLiczba = pobierzNumerMiesiaca();
+		if (miesiacLiczba==0) {
 			return;
 		}
-		String miech = miesiac(miesiacLiczba);
-		System.out.println(miech);
+		if (sprawdzMiesiac(miesiacLiczba)) {
+			System.out.println("podany miesi¹c to " + jakiToMiesiac(miesiacLiczba));
+		} else {
+			System.out.println("Ta liczba nie odpowiada ¿adnemu z miesiêcy");
+		}
 	}
 
+	
 }
