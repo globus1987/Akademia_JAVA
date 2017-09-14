@@ -20,6 +20,9 @@ public class TestCase {
 	Risk[] riskList;
 	RiskObject[] riskObjectList;
 	RiskSubject[] riskSubjectList;
+	private String result;
+	private String expectedResult;
+	
 	
 	
 	
