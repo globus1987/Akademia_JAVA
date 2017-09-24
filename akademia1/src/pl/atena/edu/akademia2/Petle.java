@@ -1,10 +1,8 @@
 package pl.atena.edu.akademia2;
 
-import java.math.BigDecimal;
 import java.util.Random;
 
 public class Petle {
-
 
 	public Petle() {
 		// TODO Auto-generated constructor stub
@@ -98,6 +96,20 @@ public class Petle {
 			System.out.printf("\n");
 		}
 
+		// coontinue i break
+		for (int ii = 0; ii < 10; ii++) {
+			if (ii % 2 != 0) {
+				continue;
+			}
+			System.out.println(ii);
+		}
+		for (int ii = 0; ii < 10; ii++) {
+			if (ii > 5) {
+				break;
+			}
+			System.out.println(ii);
+		}
+		
 	}
 
 }

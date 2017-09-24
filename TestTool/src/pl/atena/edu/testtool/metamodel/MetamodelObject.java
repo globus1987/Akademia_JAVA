@@ -3,7 +3,6 @@
  */
 package pl.atena.edu.testtool.metamodel;
 
-import com.sun.org.apache.xalan.internal.xsltc.compiler.sym;
 
 /**
  * @author Arkadiusz
