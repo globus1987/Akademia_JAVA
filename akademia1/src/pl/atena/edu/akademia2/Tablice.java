@@ -64,7 +64,35 @@ public class Tablice {
 			}
 			System.out.println("\n");
 		}
+		int[][] ttt= {{1},{2,3},{4,5,6,7}};
+		System.out.println(Arrays.toString(ttt[2]));
 		
+		int[][] tab5 = new int[3][];
+		tab5[0]= new int[6];
+		tab5[1]= new int [1];
+		tab5[2]=new int [2];
+		System.out.println(Arrays.toString(tab5[2]));
+		int iterator = 9;
+		int[][] macierz = new int [10][10];
+		for (int i=0;i<10;i++)
+		{
+			for (int j=0;j<10;j++) {
+				if (i==j)
+				{
+					macierz[i][j]=1;
+				}
+				if (j==iterator) {
+					macierz[i][j]=1;
+					iterator--;
+				}
+			}
+		}
+		for (int[] kolumna:macierz) {
+			for (int element:kolumna) {
+				System.out.printf("%d ",element);
+			}
+			System.out.println("\n");
+		}	
 		
 		
 	}
