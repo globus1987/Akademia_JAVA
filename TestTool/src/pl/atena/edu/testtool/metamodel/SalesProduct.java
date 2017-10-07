@@ -9,21 +9,33 @@ public class SalesProduct extends MetamodelObject {
 	/**
 	 * variables
 	 */
-	private String tariff;
-	/**
-	 * get/set methods
-	 */
-	public void setTariff(String sTariff) {
-		tariff=sTariff;
-	}
-	public String getTariff() {
-		return tariff;
-	}
+	private Tariff tariff;
+	private Risk[] riskList;
+
 	/**
 	 * constructors
 	 */
 	public SalesProduct() {
 		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * get/set methods
+	 */
+	public void setTariff(Tariff sTariff) {
+		tariff = sTariff;
+	}
+
+	public Tariff getTariff() {
+		return tariff;
+	}
+
+	public Risk[] getRiskList() {
+		return riskList;
+	}
+
+	public void setRiskList(Risk[] riskList) {
+		this.riskList = riskList;
 	}
 
 	/**

@@ -12,29 +12,29 @@ public class Risk extends MetamodelObject {
 	/**
 	 * 
 	 */
-	private String[] subjectList;
-	private String[] objectList;
-	private String tariff;
+	private RiskSubject[] subjectList;
+	private RiskObject[] objectList;
+	private Tariff tariff;
 	
 	/**
 	 * get/set methods
 	 */
-	public void setTariff(String sTariff) {
+	public void setTariff(Tariff sTariff) {
 		tariff=sTariff;
 	}
-	public String getTariff() {
+	public Tariff getTariff() {
 		return tariff;
 	}
-	public void setSubjectList(String[] sSubjectList) {
+	public void setSubjectList(RiskSubject[] sSubjectList) {
 		subjectList=sSubjectList;
 	}
-	public String[] getSubjectList() {
+	public RiskSubject[] getSubjectList() {
 		return subjectList;
 	}
-	public void setObjectList(String[] sObjectList) {
+	public void setObjectList(RiskObject[] sObjectList) {
 		objectList=sObjectList;
 	}
-	public String[] getObjectList() {
+	public RiskObject[] getObjectList() {
 		return objectList;
 	}
 	/**
