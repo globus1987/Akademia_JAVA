@@ -2,8 +2,6 @@ package pl.atena.edu.akademia3;
 
 import java.util.Scanner;
 
-import pl.atena.edu.akademia2.Osoba;
-
 /**
  * @author Arkadiusz
  *
@@ -55,7 +53,7 @@ public class SklepNowy {
 	 *            sprawdzany klient
 	 * @return informacja czy klient jest pe³noletni
 	 */
-	private boolean sprawdzPelnoletnoscKlienta(final Osoba osoba) {
+	private boolean sprawdzPelnoletnoscKlienta(final OsobaFizyczna osoba) {
 		return osoba.pelnoletni();
 	}
 
@@ -78,7 +76,7 @@ public class SklepNowy {
 	 * @param osoba
 	 *            obs³ugiwany klient
 	 */
-	private void sprzedajPiwo(final Osoba osoba) {
+	private void sprzedajPiwo(final OsobaFizyczna osoba) {
 		System.out.println("Ile piw dla " + osoba.getImie() + " ?");
 		Integer n=0;
 		try {
@@ -123,8 +121,8 @@ public class SklepNowy {
 
 		SklepNowy monopolowy = new SklepNowy();
 		SklepNowy monopolowy2 = new SklepNowy(10);
-		Osoba klient = new Osoba("Jan", "Nowak", 17);
-		Osoba klient2 = new Osoba("Marek", "Kowalski", 22);
+		OsobaFizyczna klient = new OsobaFizyczna("Jan", "Nowak", 17);
+		OsobaFizyczna klient2 = new OsobaFizyczna("Marek", "Kowalski", 22);
 
 		Integer x;
 		do {

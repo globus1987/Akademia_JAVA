@@ -1,0 +1,24 @@
+
+fsquid:S1172-"-Remove this unused method parameter "tariff".(¨±Ñûÿÿÿÿ8­üŠ°ï+HRMAJORZ
+CODE_SMELL
+`squid:S1068",Remove this unused "testCase" private field.(îºíÄ8¿ı€°ï+HÕRMAJORZ
+CODE_SMELL
+jsquid:S1068
+"1Remove this unused "testCaseIdRef" private field.(äñ¨Éşÿÿÿÿ8àÓ°ï+HŸRMAJORZ
+CODE_SMELL
+ƒsquid:S00100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãèÜ8Ë‡°ï+HñRMINORZ
+CODE_SMELL
+jsquid:S1172 "1Remove this unused method parameter "objectList".(¼©°ˆûÿÿÿÿ8’’†°ï+HçRMAJORZ
+CODE_SMELL
+fsquid:S1172$"2Remove this unused method parameter "subjectList".(ãèÜ8±€‰°ï+H„RMAJORZ
+CODE_SMELL
+ˆsquid:S00100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨±Ñûÿÿÿÿ8­üŠ°ï+HRMINORZ
+CODE_SMELL
+ƒsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£Òø¨8¿ı€°ï+HÖRMINORZ
+CODE_SMELL
+ƒsquid:S00100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·¦‹8Ë‡°ï+HòRMINORZ
+CODE_SMELL
+csquid:S1172"/Remove this unused method parameter "riskList".(£Òø¨8¿ı€°ï+H×RMAJORZ
+CODE_SMELL
+ˆsquid:S00100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼©°ˆûÿÿÿÿ8’’†°ï+HæRMINORZ
+CODE_SMELL

@@ -1,7 +1,5 @@
 package pl.atena.edu.akademia3;
 
-import pl.atena.edu.akademia2.Osoba;
-
 /**
  * @author Arkadiusz
  *
@@ -52,7 +50,7 @@ public class Sklep {
 	 *            sprawdzany klient
 	 * @return informacja czy klient jest pe³noletni
 	 */
-	private boolean sprawdzPelnoletnoscKlienta(final Osoba osoba) {
+	private boolean sprawdzPelnoletnoscKlienta(final OsobaFizyczna osoba) {
 		return osoba.pelnoletni() ? true : false;
 	}
 
@@ -74,7 +72,7 @@ public class Sklep {
 	 * @param osoba obs³ugiwany klient
 	 * @param iloscPiwaDoZakupu zakupywana liczba piw
 	 */
-	private void sprzedajPiwo(final Osoba osoba, final Integer iloscPiwaDoZakupu) {
+	private void sprzedajPiwo(final OsobaFizyczna osoba, final Integer iloscPiwaDoZakupu) {
 		if (this.sprawdzIloscPiwaDoZakupu(iloscPiwaDoZakupu)) {
 
 			if (this.sprawdzPelnoletnoscKlienta(osoba)) {
@@ -99,7 +97,7 @@ public class Sklep {
 	 *
 	 * @param osoba obs³ugiwany klient
 	 */
-	private void sprzedajPiwo(final Osoba osoba) {
+	private void sprzedajPiwo(final OsobaFizyczna osoba) {
 		if (this.sprawdzIloscPiwaDoZakupu(1)) {
 
 			if (this.sprawdzPelnoletnoscKlienta(osoba)) {
@@ -138,12 +136,12 @@ public class Sklep {
 		Sklep monopolowy = new Sklep();
 		System.out.println(monopolowy);
 		// tworzymy obiekt niepe³noletniej osoby
-		Osoba klient = new Osoba("Jan", "Nowak", 17);
+		OsobaFizyczna klient = new OsobaFizyczna("Jan", "Nowak", 17);
 		// proba sprzeda¿y piwa nieletniemu
 		monopolowy.sprzedajPiwo(klient, 1);
 		System.out.println(monopolowy);
 		// tworzymy obiekt osoby pelnoletniej
-		Osoba klient2 = new Osoba("Marek", "Kowalski", 18);
+		OsobaFizyczna klient2 = new OsobaFizyczna("Marek", "Kowalski", 18);
 		// sprzedajemy piwo pe³noletniemu przy pustym sklepie
 		monopolowy.sprzedajPiwo(klient2, 1);
 		System.out.println(monopolowy);

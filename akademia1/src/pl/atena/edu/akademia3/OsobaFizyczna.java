@@ -1,10 +1,13 @@
-package pl.atena.edu.akademia2;
+package pl.atena.edu.akademia3;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author Arkadiusz
  *
  */
-public class Osoba {
+public class OsobaFizyczna implements Osoba {
 	/**
 	 *
 	 */
@@ -22,10 +25,10 @@ public class Osoba {
 	/**
 	 * @param nazwisko nazwisko nowej osoby
 	 * @param wzrost wzrost nowej osoby
-	 * @return zwraca instancjê obiektu {@link Osoba}
+	 * @return zwraca instancjê obiektu {@link OsobaFizyczna}
 	 */
-	public static Osoba instance(final String nazwisko, final int wzrost) {
-		return new Osoba(nazwisko, wzrost);
+	public static OsobaFizyczna instance(final String nazwisko, final int wzrost) {
+		return new OsobaFizyczna(nazwisko, wzrost);
 	}
 
 	public Integer getPosiadanePiwa() {
@@ -39,7 +42,7 @@ public class Osoba {
 		this.posiadanePiwa += piwaDoDodania;
 	}
 
-	public Osoba() {
+	public OsobaFizyczna() {
 		System.out.println("hello");
 		this.setWzrost(160);
 	}
@@ -48,28 +51,28 @@ public class Osoba {
 		return this.wiek;
 	}
 
-	public Osoba(final int wzrost, final String imie, final String nazwisko) {
+	public OsobaFizyczna(final int wzrost, final String imie, final String nazwisko) {
 		this(imie, nazwisko);
 		this.wzrost = wzrost;
 
 	}
-	public Osoba(final String imie, final String nazwisko, final int wiek) {
+	public OsobaFizyczna(final String imie, final String nazwisko, final int wiek) {
 		this.imie=imie;
 		this.nazwisko=nazwisko;
 		this.wiek=wiek;
 		this.posiadanePiwa=Integer.valueOf(0);
 	}
 
-	public Osoba(final String tekst) {
+	public OsobaFizyczna(final String tekst) {
 		System.out.println(tekst);
 	}
 
-	private Osoba(final String nazwisko, final int wzrost) {
+	private OsobaFizyczna(final String nazwisko, final int wzrost) {
 		this.nazwisko = nazwisko;
 		this.wzrost = wzrost;
 	}
 
-	public Osoba(final String imie, final String nazwisko) {
+	public OsobaFizyczna(final String imie, final String nazwisko) {
 		this.setImie(imie);
 		this.setNazwisko(nazwisko);
 	}
@@ -158,17 +161,34 @@ public class Osoba {
 		return String.format("Osoba [imie=%s, wiek=%s, nazwisko=%s, posiadanePiwa=%s]", this.imie, this.wiek, this.nazwisko,
 				this.posiadanePiwa);
 	}
+	public String toStringImieNazwisko() {
+		return String.format("Osoba [imie=%s, nazwisko=%s]", this.imie, this.nazwisko);
+	}
 	public static void main(final String[] argc) {
-		Osoba gracz = new Osoba();
+		OsobaFizyczna gracz = new OsobaFizyczna();
 		gracz.KupButy("Adidas", "XXX");
 		System.out.println(gracz);
-		Osoba.Buty buty = new Osoba.Buty("Nike", "YYY");
+		OsobaFizyczna.Buty buty = new OsobaFizyczna.Buty("Nike", "YYY");
 		System.out.println(buty);
-		Osoba gracz2 = new Osoba();
+		OsobaFizyczna gracz2 = new OsobaFizyczna();
 		gracz2.KupKoszulka("adidasowa");
 		System.out.println(gracz2);
 
+		OsobaFizyczna Jan = new OsobaFizyczna("Jan", "Nowak");
+		OsobaPrawna Atena= new OsobaPrawna("Atena");
+		List<Osoba> osoby = new ArrayList<>();
+		osoby.add(Jan);
+		osoby.add(Atena);
+		osoby.forEach(i->System.out.println(i.nazwa()));
+		OsobaFizyczna Marek = new OsobaFizyczna("Marek", "Kowalski");
+		osoby.add(Marek);
+		osoby.forEach(i->System.out.println(i.nazwa()));
 
+	}
+
+	@Override
+	public String nazwa() {
+		return String.format("%s %s", this.imie, this.nazwisko);
 	}
 
 }

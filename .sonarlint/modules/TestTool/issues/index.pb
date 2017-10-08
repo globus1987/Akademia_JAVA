@@ -19,3 +19,7 @@ a
 1src/pl/atena/edu/testtool/TestToolProperties.java,4\d\4d6a70d4355a53159b883713b2d4fba2a2ba784f
 ]
 -src/pl/atena/edu/testtool/metamodel/Risk.java,6\9\69ea5ffada55a2a622639fd5fa6e7da8b0c6e48c
+W
+'src/pl/atena/edu/testtool/UserList.java,4\3\43a2d3c9ee303a16750dfcdfd84e8a72f91824e6
+d
+4src/pl/atena/edu/testtool/JSonRequestToMultiSpi.java,5\1\51bb78e61624232fc090846204fb817cadbc8506

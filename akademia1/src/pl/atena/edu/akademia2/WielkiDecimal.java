@@ -3,6 +3,8 @@ package pl.atena.edu.akademia2;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
+import pl.atena.edu.akademia3.OsobaFizyczna;
+
 public class WielkiDecimal {
 
 	public WielkiDecimal() {
@@ -18,11 +20,11 @@ public class WielkiDecimal {
 		BigDecimal dzielenie = mnozenie.divide(wielkid);
 		BigInteger nwd = BigInteger.valueOf(100).gcd(BigInteger.valueOf(8));
 
-		Osoba gracz = new Osoba();
-		Osoba gracz2 = new Osoba("uda³o siê");
-		Osoba gracz3 = new Osoba("Jan", "Nowak");
-		Osoba gracz4 = new Osoba(176, "marek", "kowalski");
-		Osoba gracz5 = Osoba.instance("Kuchta", 156);
+		OsobaFizyczna gracz = new OsobaFizyczna();
+		OsobaFizyczna gracz2 = new OsobaFizyczna("uda³o siê");
+		OsobaFizyczna gracz3 = new OsobaFizyczna("Jan", "Nowak");
+		OsobaFizyczna gracz4 = new OsobaFizyczna(176, "marek", "kowalski");
+		OsobaFizyczna gracz5 = OsobaFizyczna.instance("Kuchta", 156);
 		System.out.println(
 				gracz3.getImie() + " a na nazwisko ma " + gracz3.getNazwisko() + " o wzroœcie " + gracz3.getWzrost());
 		System.out.println(

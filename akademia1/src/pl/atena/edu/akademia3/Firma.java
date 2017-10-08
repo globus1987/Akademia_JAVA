@@ -1,9 +1,7 @@
 package pl.atena.edu.akademia3;
 
-import pl.atena.edu.akademia2.Osoba;
-
 public class Firma {
-	public static final Osoba PREZES=new Osoba();
+	public static final OsobaFizyczna PREZES=new OsobaFizyczna();
 
 	static {
 		PREZES.setImie("Tomasz");

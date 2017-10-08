@@ -1,84 +1,84 @@
 
-Msquid:S1659)"!Declare "los" on a separate line.(¼‡ÔH–RMINORZ
+~squid:S3457>"Q%n should be used in place of \n to produce the platform-specific line separator.(¿£†¯HæRMAJORZ
 CODE_SMELL
-Ssquid:S16593"!Declare "max" on a separate line.(àÇ²åûÿÿÿÿH—RMINORZ
-CODE_SMELL
-Lsquid:S1659R"Declare "j" on a separate line.(ò¶âžH˜RMINORZ
-CODE_SMELL
-Rsquid:S1659R"%Declare "maximum" on a separate line.(ò¶âžH™RMINORZ
-CODE_SMELL
-vsquid:S1192Y"FDefine a constant instead of duplicating this literal "%5d |" 3 times.(Â¹ƒõHšRCRITICALZ
+j
+squid:S106L"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿHýRMAJORZ
 CODE_SMELL
 e
-squid:S106"9Replace this use of System.out or System.err by a logger.(¾¨È®H›RMAJORZ
+squid:S106I"9Replace this use of System.out or System.err by a logger.(Õ®«÷HïRMAJORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿHüRINFOZ
+CODE_SMELL
+Msquid:S1659)"!Declare "los" on a separate line.(¼‡ÔHíRMINORZ
+CODE_SMELL
+e
+squid:S106n"9Replace this use of System.out or System.err by a logger.(°©ÒÝHòRMAJORZ
+CODE_SMELL
+j
+squid:S106["9Replace this use of System.out or System.err by a logger.(ó÷õðûÿÿÿÿHéRMAJORZ
+CODE_SMELL
+Rsquid:S3457T"%String contains no format specifiers.(ï«¨°H‚RMAJORZ
+CODE_SMELL
+Rsquid:S1659R"%Declare "maximum" on a separate line.(ò¶âžHûRMINORZ
+CODE_SMELL
+Lsquid:S1659R"Declare "j" on a separate line.(ò¶âžHõRMINORZ
+CODE_SMELL
+j
+squid:S106@"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿH÷RMAJORZ
+CODE_SMELL
+e
+squid:S106T"9Replace this use of System.out or System.err by a logger.(ï«¨°HäRMAJORZ
+CODE_SMELL
+j
+squid:S106%"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿHôRMAJORZ
+CODE_SMELL
+e
+squid:S106C"9Replace this use of System.out or System.err by a logger.(¤Ïþ‘HåRMAJORZ
 CODE_SMELL
 d
-squid:S106$"9Replace this use of System.out or System.err by a logger.(†é»_HœRMAJORZ
+squid:S106."9Replace this use of System.out or System.err by a logger.(óŒ¯/HãRMAJORZ
 CODE_SMELL
 j
-squid:S106%"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿHRMAJORZ
+squid:S106/"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿH€RMAJORZ
+CODE_SMELL
+e
+squid:S1067"9Replace this use of System.out or System.err by a logger.(ð¸‡¬HRMAJORZ
+CODE_SMELL
+Rsquid:S3457`"%String contains no format specifiers.(ï«¨°HÿRMAJORZ
+CODE_SMELL
+e
+squid:S106>"9Replace this use of System.out or System.err by a logger.(¿£†¯HùRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(¾¨È®HöRMAJORZ
+CODE_SMELL
+~squid:S3457`"Q%n should be used in place of \n to produce the platform-specific line separator.(ï«¨°HèRMAJORZ
+CODE_SMELL
+‚squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(Çµí‘HðRCRITICALZ
+CODE_SMELL
+e
+squid:S106Y"9Replace this use of System.out or System.err by a logger.(Â¹ƒõHëRMAJORZ
+CODE_SMELL
+vsquid:S1192Y"FDefine a constant instead of duplicating this literal "%5d |" 3 times.(Â¹ƒõHìRCRITICALZ
+CODE_SMELL
+e
+squid:S106N"9Replace this use of System.out or System.err by a logger.(Õ®«÷HþRMAJORZ
+CODE_SMELL
+e
+squid:S106h"9Replace this use of System.out or System.err by a logger.(°©ÒÝHîRMAJORZ
+CODE_SMELL
+Ssquid:S16593"!Declare "max" on a separate line.(àÇ²åûÿÿÿÿHçRMINORZ
+CODE_SMELL
+e
+squid:S106`"9Replace this use of System.out or System.err by a logger.(ï«¨°HóRMAJORZ
+CODE_SMELL
+~squid:S3457T"Q%n should be used in place of \n to produce the platform-specific line separator.(ï«¨°HøRMAJORZ
 CODE_SMELL
 d
-squid:S106."9Replace this use of System.out or System.err by a logger.(óŒ¯/HžRMAJORZ
+squid:S106$"9Replace this use of System.out or System.err by a logger.(†é»_HúRMAJORZ
+CODE_SMELL
+~squid:S3457C"Q%n should be used in place of \n to produce the platform-specific line separator.(¤Ïþ‘HñRMAJORZ
 CODE_SMELL
 j
-squid:S106/"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿHŸRMAJORZ
-CODE_SMELL
-e
-squid:S1067"9Replace this use of System.out or System.err by a logger.(ð¸‡¬H RMAJORZ
-CODE_SMELL
-e
-squid:S106>"9Replace this use of System.out or System.err by a logger.(¿£†¯H¡RMAJORZ
-CODE_SMELL
-j
-squid:S106@"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿH¢RMAJORZ
-CODE_SMELL
-e
-squid:S106C"9Replace this use of System.out or System.err by a logger.(¤Ïþ‘H£RMAJORZ
-CODE_SMELL
-e
-squid:S106I"9Replace this use of System.out or System.err by a logger.(Õ®«÷H¤RMAJORZ
-CODE_SMELL
-j
-squid:S106L"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿH¥RMAJORZ
-CODE_SMELL
-e
-squid:S106N"9Replace this use of System.out or System.err by a logger.(Õ®«÷H¦RMAJORZ
-CODE_SMELL
-e
-squid:S106T"9Replace this use of System.out or System.err by a logger.(ï«¨°H§RMAJORZ
-CODE_SMELL
-e
-squid:S106Y"9Replace this use of System.out or System.err by a logger.(Â¹ƒõH¨RMAJORZ
-CODE_SMELL
-j
-squid:S106["9Replace this use of System.out or System.err by a logger.(ó÷õðûÿÿÿÿH©RMAJORZ
-CODE_SMELL
-j
-squid:S106]"9Replace this use of System.out or System.err by a logger.(“û¶ÜýÿÿÿÿHªRMAJORZ
-CODE_SMELL
-e
-squid:S106`"9Replace this use of System.out or System.err by a logger.(ï«¨°H«RMAJORZ
-CODE_SMELL
-e
-squid:S106h"9Replace this use of System.out or System.err by a logger.(°©ÒÝH¬RMAJORZ
-CODE_SMELL
-e
-squid:S106n"9Replace this use of System.out or System.err by a logger.(°©ÒÝH­RMAJORZ
-CODE_SMELL
-csquid:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿH®RINFOZ
-CODE_SMELL
-‚squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(Çµí‘H¯RCRITICALZ
-CODE_SMELL
-~squid:S3457>"Q%n should be used in place of \n to produce the platform-specific line separator.(¿£†¯H°RMAJORZ
-CODE_SMELL
-~squid:S3457C"Q%n should be used in place of \n to produce the platform-specific line separator.(¤Ïþ‘H±RMAJORZ
-CODE_SMELL
-~squid:S3457T"Q%n should be used in place of \n to produce the platform-specific line separator.(ï«¨°H²RMAJORZ
-CODE_SMELL
-Rsquid:S3457T"%String contains no format specifiers.(ï«¨°H³RMAJORZ
-CODE_SMELL
-~squid:S3457`"Q%n should be used in place of \n to produce the platform-specific line separator.(ï«¨°H´RMAJORZ
-CODE_SMELL
-Rsquid:S3457`"%String contains no format specifiers.(ï«¨°HµRMAJORZ
+squid:S106]"9Replace this use of System.out or System.err by a logger.(“û¶ÜýÿÿÿÿHêRMAJORZ
 CODE_SMELL

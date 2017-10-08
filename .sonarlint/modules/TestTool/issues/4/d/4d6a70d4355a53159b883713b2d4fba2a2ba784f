@@ -1,19 +1,18 @@
 
-Zsquid:S1068"-Remove this unused "debugFile" private field.(ÅÑĞ£HRMAJORZ
+Zsquid:S1068"-Remove this unused "debugFile" private field.(ÅÑĞ£HĞRMAJORZ
 CODE_SMELL
-csquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHRINFOZ
+Zsquid:S1068"-Remove this unused "debugMode" private field.(ÕßÆ•HÔRMAJORZ
 CODE_SMELL
-^squid:S1068",Remove this unused "language" private field.(ûòÁ‚üÿÿÿÿHRMAJORZ
+ksquid:S1068"9Remove this unused "inputFileLocalisation" private field.(åÅ¯üûÿÿÿÿHÎRMAJORZ
 CODE_SMELL
-Zsquid:S1068"(Remove this unused "host" private field.(Ø¦øİûÿÿÿÿHRMAJORZ
+Zsquid:S1068
+"(Remove this unused "host" private field.(Ø¦øİûÿÿÿÿHÏRMAJORZ
 CODE_SMELL
-csquid:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿH‘RINFOZ
+lsquid:S1068":Remove this unused "outputFileLocalisation" private field.(¯àæ¯ûÿÿÿÿHÕRMAJORZ
 CODE_SMELL
-Zsquid:S1068"-Remove this unused "debugMode" private field.(ÕßÆ•H’RMAJORZ
+Vsquid:S1068	"*Remove this unused "server" private field.(† ‹)HÖRMAJORZ
 CODE_SMELL
-ksquid:S1068"9Remove this unused "inputFileLocalisation" private field.(åÅ¯üûÿÿÿÿH“RMAJORZ
+^squid:S1068",Remove this unused "language" private field.(ûòÁ‚üÿÿÿÿHÑRMAJORZ
 CODE_SMELL
-lsquid:S1068":Remove this unused "outputFileLocalisation" private field.(¯àæ¯ûÿÿÿÿH”RMAJORZ
-CODE_SMELL
-Vsquid:S1068"*Remove this unused "server" private field.(† ‹)H•RMAJORZ
+¸squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(éÖ“ì8¨ÅãØï+HÁRCRITICALZ
 CODE_SMELL

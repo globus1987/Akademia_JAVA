@@ -1,0 +1,20 @@
+
+e
+squid:S1062"9Replace this use of System.out or System.err by a logger.(™ˆ·šHïRMAJORZ
+CODE_SMELL
+nsquid:S1126*"AReplace this if-then-else statement by a single return statement.(‰˜½úHóRMINORZ
+CODE_SMELL
+j
+squid:S106C"9Replace this use of System.out or System.err by a logger.(ñþ¥ÊýÿÿÿÿHñRMAJORZ
+CODE_SMELL
+d
+squid:S1066"9Replace this use of System.out or System.err by a logger.(äƒ‰
+HðRMAJORZ
+CODE_SMELL
+…squid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(•ÕÙÒÿÿÿÿÿHíRMINORZ
+CODE_SMELL
+j
+squid:S106E"9Replace this use of System.out or System.err by a logger.(’æÿ•þÿÿÿÿHòRMAJORZ
+CODE_SMELL
+€squid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(üŽÐØHîRMINORZ
+CODE_SMELL
