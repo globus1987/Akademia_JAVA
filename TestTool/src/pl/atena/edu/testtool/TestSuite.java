@@ -1,6 +1,3 @@
-/**
- *
- */
 package pl.atena.edu.testtool;
 
 /**
@@ -12,13 +9,9 @@ public class TestSuite {
 	TestCase[] testCaseList;
 
 	public TestSuite() {
-		// TODO Auto-generated constructor stub
 	}
 
-	/**
-	 * @param args
-	 */
-	public void ExecuteTestSuite() {
+	public void executeTestSuite() {
 
 	}
 

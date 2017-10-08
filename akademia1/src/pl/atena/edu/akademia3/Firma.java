@@ -1,9 +1,9 @@
 package pl.atena.edu.akademia3;
 
-import pl.atena.edu.akademia2.Gracz;
+import pl.atena.edu.akademia2.Osoba;
 
 public class Firma {
-	public static final Gracz PREZES=new Gracz();
+	public static final Osoba PREZES=new Osoba();
 
 	static {
 		PREZES.setImie("Tomasz");
@@ -12,5 +12,7 @@ public class Firma {
 
 	public static void main(final String[] argc) {
 		System.out.println(Firma.PREZES.getImie()+" "+Firma.PREZES.getNazwisko());
+		System.out.println(Firma.PREZES);
+
 	}
 }

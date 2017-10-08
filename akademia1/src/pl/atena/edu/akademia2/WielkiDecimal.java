@@ -18,11 +18,11 @@ public class WielkiDecimal {
 		BigDecimal dzielenie = mnozenie.divide(wielkid);
 		BigInteger nwd = BigInteger.valueOf(100).gcd(BigInteger.valueOf(8));
 
-		Gracz gracz = new Gracz();
-		Gracz gracz2 = new Gracz("uda³o siê");
-		Gracz gracz3 = new Gracz("Jan", "Nowak");
-		Gracz gracz4 = new Gracz(176, "marek", "kowalski");
-		Gracz gracz5 = Gracz.instance("Kuchta", 156);
+		Osoba gracz = new Osoba();
+		Osoba gracz2 = new Osoba("uda³o siê");
+		Osoba gracz3 = new Osoba("Jan", "Nowak");
+		Osoba gracz4 = new Osoba(176, "marek", "kowalski");
+		Osoba gracz5 = Osoba.instance("Kuchta", 156);
 		System.out.println(
 				gracz3.getImie() + " a na nazwisko ma " + gracz3.getNazwisko() + " o wzroœcie " + gracz3.getWzrost());
 		System.out.println(

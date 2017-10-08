@@ -1,6 +1,3 @@
-/**
- * 
- */
 package pl.atena.edu.testtool.metamodel;
 
 
@@ -10,51 +7,37 @@ package pl.atena.edu.testtool.metamodel;
  */
 public class MetamodelObject {
 
-	/**
-	 * 
-	 */
 	private String printName;
 	private String name;
 	private String symbol;
 
 	public MetamodelObject() {
-		// TODO Auto-generated constructor stub
-		name="temporary name";
-		printName="temporary printname";
-		symbol="temporary symbol";
-		
+		this.name="temporary name";
+		this.printName="temporary printname";
+		this.symbol="temporary symbol";
 	}
 
-	public void setName(String sname) {
-		name = sname;
+	public void setName(final String sname) {
+		this.name = sname;
 	}
 
 	public String getName() {
-		return name;
+		return this.name;
 	}
 
-	public void setPrintName(String sprintName) {
-		printName = sprintName;
+	public void setPrintName(final String sprintName) {
+		this.printName = sprintName;
 	}
 
 	public String getPrintName() {
-		return printName;
+		return this.printName;
 	}
 
-	public void setSymbol(String sSymbol) {
-		symbol = sSymbol;
+	public void setSymbol(final String sSymbol) {
+		this.symbol = sSymbol;
 	}
 
 	public String getSymbol() {
-		return symbol;
+		return this.symbol;
 	}
-
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
 }

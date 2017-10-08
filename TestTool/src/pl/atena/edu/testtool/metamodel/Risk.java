@@ -1,6 +1,3 @@
-/**
- * 
- */
 package pl.atena.edu.testtool.metamodel;
 
 /**
@@ -9,47 +6,31 @@ package pl.atena.edu.testtool.metamodel;
  */
 public class Risk extends MetamodelObject {
 
-	/**
-	 * 
-	 */
+
 	private RiskSubject[] subjectList;
 	private RiskObject[] objectList;
 	private Tariff tariff;
-	
-	/**
-	 * get/set methods
-	 */
-	public void setTariff(Tariff sTariff) {
-		tariff=sTariff;
+
+
+	public void setTariff(final Tariff sTariff) {
+		this.tariff=sTariff;
 	}
 	public Tariff getTariff() {
-		return tariff;
+		return this.tariff;
 	}
-	public void setSubjectList(RiskSubject[] sSubjectList) {
-		subjectList=sSubjectList;
+	public void setSubjectList(final RiskSubject[] sSubjectList) {
+		this.subjectList=sSubjectList;
 	}
 	public RiskSubject[] getSubjectList() {
-		return subjectList;
+		return this.subjectList;
 	}
-	public void setObjectList(RiskObject[] sObjectList) {
-		objectList=sObjectList;
+	public void setObjectList(final RiskObject[] sObjectList) {
+		this.objectList=sObjectList;
 	}
 	public RiskObject[] getObjectList() {
-		return objectList;
+		return this.objectList;
 	}
-	/**
-	 * constructors
-	 */
+
 	public Risk() {
-		// TODO Auto-generated constructor stub
 	}
-
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
 }

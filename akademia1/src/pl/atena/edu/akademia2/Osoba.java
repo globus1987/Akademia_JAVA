@@ -1,6 +1,13 @@
 package pl.atena.edu.akademia2;
 
-public class Gracz {
+/**
+ * @author Arkadiusz
+ *
+ */
+public class Osoba {
+	/**
+	 *
+	 */
 	public static final int PELNOLETNOSC = 18;
 
 	private int wzrost;
@@ -9,34 +16,60 @@ public class Gracz {
 	private String nazwisko;
 
 	private Buty buty;
-
+	private Integer posiadanePiwa;
 	private Koszulka Koszulka;
 
-	public static Gracz instance(final String nazwisko, final int wzrost) {
-		return new Gracz(nazwisko, wzrost);
+	/**
+	 * @param nazwisko nazwisko nowej osoby
+	 * @param wzrost wzrost nowej osoby
+	 * @return zwraca instancjê obiektu {@link Osoba}
+	 */
+	public static Osoba instance(final String nazwisko, final int wzrost) {
+		return new Osoba(nazwisko, wzrost);
 	}
 
-	public Gracz() {
+	public Integer getPosiadanePiwa() {
+		return this.posiadanePiwa;
+	}
+
+	public void setPosiadanePiwa(final Integer posiadanePiwa) {
+		this.posiadanePiwa = posiadanePiwa;
+	}
+	public void dodajPosiadanePiwa(final Integer piwaDoDodania) {
+		this.posiadanePiwa += piwaDoDodania;
+	}
+
+	public Osoba() {
 		System.out.println("hello");
 		this.setWzrost(160);
 	}
 
-	public Gracz(final int wzrost, final String imie, final String nazwisko) {
+	public int getWiek() {
+		return this.wiek;
+	}
+
+	public Osoba(final int wzrost, final String imie, final String nazwisko) {
 		this(imie, nazwisko);
 		this.wzrost = wzrost;
 
 	}
+	public Osoba(final String imie, final String nazwisko, final int wiek) {
+		this.imie=imie;
+		this.nazwisko=nazwisko;
+		this.wiek=wiek;
+		this.posiadanePiwa=Integer.valueOf(0);
+	}
 
-	public Gracz(final String tekst) {
+	public Osoba(final String tekst) {
 		System.out.println(tekst);
 	}
 
-	private Gracz(final String nazwisko, final int wzrost) {
+	private Osoba(final String nazwisko, final int wzrost) {
 		this.nazwisko = nazwisko;
 		this.wzrost = wzrost;
 	}
 
-	public Gracz(final String imie, final String nazwisko) {
+	public Osoba(final String imie, final String nazwisko) {
 		this.setImie(imie);
 		this.setNazwisko(nazwisko);
 	}
@@ -61,10 +94,16 @@ public class Gracz {
 		this.imie = imie;
 	}
 
+	/**
+	 * @param nazwisko
+	 */
 	public void setNazwisko(final String nazwisko) {
 		this.nazwisko = nazwisko;
 	}
 
+	/**
+	 * @param wzrost
+	 */
 	public void setWzrost(final int wzrost) {
 		this.wzrost = wzrost;
 	}
@@ -74,6 +113,10 @@ public class Gracz {
 		System.out.println(this.getNazwisko() + " postarza³ siê o " + lata);
 	}
 	//klasa zagnie¿dzona
+	/**
+	 * @author Arkadiusz
+	 *
+	 */
 	public static class Buty{
 		private String marka;
 		private String model;
@@ -87,6 +130,10 @@ public class Gracz {
 		}
 	}
 	//klasa wewnêtrzna
+	/**
+	 * @author Arkadiusz
+	 *
+	 */
 	public class Koszulka{
 		private String marka;
 		public Koszulka(final String marka) {
@@ -100,21 +147,24 @@ public class Gracz {
 	public void KupButy(final String marka, final String model) {
 		this.buty = new Buty(marka,model);
 	}
+	/**
+	 * @param marka
+	 */
 	public void KupKoszulka(final String marka) {
 		this.Koszulka = new Koszulka(marka);
 	}
 	@Override
 	public String toString() {
-		return String.format("Gracz [wzrost=%s, imie=%s, wiek=%s, nazwisko=%s, buty=%s,koszulka=%s]", this.wzrost, this.imie, this.wiek, this.nazwisko,
-				this.buty,this.Koszulka);
+		return String.format("Osoba [imie=%s, wiek=%s, nazwisko=%s, posiadanePiwa=%s]", this.imie, this.wiek, this.nazwisko,
+				this.posiadanePiwa);
 	}
 	public static void main(final String[] argc) {
-		Gracz gracz = new Gracz();
+		Osoba gracz = new Osoba();
 		gracz.KupButy("Adidas", "XXX");
 		System.out.println(gracz);
-		Gracz.Buty buty = new Gracz.Buty("Nike", "YYY");
+		Osoba.Buty buty = new Osoba.Buty("Nike", "YYY");
 		System.out.println(buty);
-		Gracz gracz2 = new Gracz();
+		Osoba gracz2 = new Osoba();
 		gracz2.KupKoszulka("adidasowa");
 		System.out.println(gracz2);
 

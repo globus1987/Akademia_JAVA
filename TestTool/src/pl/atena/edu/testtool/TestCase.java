@@ -1,6 +1,3 @@
-/**
- *
- */
 package pl.atena.edu.testtool;
 
 import pl.atena.edu.testtool.metamodel.Risk;
@@ -25,25 +22,15 @@ public class TestCase {
 	private RiskSubject[] riskSubjectList;
 
 	public TestCase() {
-		// Auto-generated constructor stub
 	}
 
 	public TestCase(final String name) {
 		this.tcName = name;
 	}
 
-	public void ExecuteTestCase() {
+	public void executeTestCase() {
 
 	}
-
-	/**
-	 * @param args
-	 */
-	public static void main(final String[] args) {
-		// Auto-generated method stub
-
-	}
-
 	public Risk[] getRiskList() {
 		return this.riskList;
 	}

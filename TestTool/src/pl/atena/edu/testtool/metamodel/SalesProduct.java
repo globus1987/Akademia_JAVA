@@ -6,44 +6,27 @@ package pl.atena.edu.testtool.metamodel;
  */
 public class SalesProduct extends MetamodelObject {
 
-	/**
-	 * variables
-	 */
 	private Tariff tariff;
 	private Risk[] riskList;
 
-	/**
-	 * constructors
-	 */
+
 	public SalesProduct() {
-		// TODO Auto-generated constructor stub
 	}
 
-	/**
-	 * get/set methods
-	 */
-	public void setTariff(Tariff sTariff) {
-		tariff = sTariff;
+	public void setTariff(final Tariff sTariff) {
+		this.tariff = sTariff;
 	}
 
 	public Tariff getTariff() {
-		return tariff;
+		return this.tariff;
 	}
 
 	public Risk[] getRiskList() {
-		return riskList;
+		return this.riskList;
 	}
 
-	public void setRiskList(Risk[] riskList) {
+	public void setRiskList(final Risk[] riskList) {
 		this.riskList = riskList;
-	}
-
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 	}
 
 }
