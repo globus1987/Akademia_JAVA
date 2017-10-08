@@ -5,30 +5,37 @@ public class UserList {
 	private String userEmailAddress;
 	private boolean notifyAboutResults;
 	private boolean notifyAboutRegressionResults;
+
 	public String getUserName() {
-		return userName;
+		return this.userName;
 	}
-	public void setUserName(String userName) {
+
+	public void setUserName(final String userName) {
 		this.userName = userName;
 	}
+
 	public String getUserEmailAddress() {
-		return userEmailAddress;
+		return this.userEmailAddress;
 	}
-	public void setUserEmailAddress(String userEmailAddress) {
+
+	public void setUserEmailAddress(final String userEmailAddress) {
 		this.userEmailAddress = userEmailAddress;
 	}
+
 	public boolean isNotifyAboutResults() {
-		return notifyAboutResults;
+		return this.notifyAboutResults;
 	}
-	public void setNotifyAboutResults(boolean notifyAboutResults) {
+
+	public void setNotifyAboutResults(final boolean notifyAboutResults) {
 		this.notifyAboutResults = notifyAboutResults;
 	}
+
 	public boolean isNotifyAboutRegressionResults() {
-		return notifyAboutRegressionResults;
+		return this.notifyAboutRegressionResults;
 	}
-	public void setNotifyAboutRegressionResults(boolean notifyAboutRegressionResults) {
+
+	public void setNotifyAboutRegressionResults(final boolean notifyAboutRegressionResults) {
 		this.notifyAboutRegressionResults = notifyAboutRegressionResults;
 	}
-	
-	
+
 }

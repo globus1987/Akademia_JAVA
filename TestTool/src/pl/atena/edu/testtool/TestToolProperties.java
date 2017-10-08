@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package pl.atena.edu.testtool;
 
@@ -10,7 +10,7 @@ package pl.atena.edu.testtool;
 public class TestToolProperties {
 
 	/**
-	 * 
+	 *
 	 */
 	private String language;
 	private String server;
@@ -19,17 +19,9 @@ public class TestToolProperties {
 	private String debugFile;
 	private String inputFileLocalisation;
 	private String outputFileLocalisation;
-	
+
 	public TestToolProperties() {
 		// TODO Auto-generated constructor stub
-	}
-
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 	}
 
 }

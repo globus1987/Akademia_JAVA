@@ -1,0 +1,71 @@
+
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ËãÙ«üÿÿÿÿH±RMAJORZ
+CODE_SMELL
+·squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹ÈÕ98šåÛ›ë+HÆRCRITICALZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHµRMAJORZ
+CODE_SMELL
+q
+squid:S106A"9Replace this use of System.out or System.err by a logger.(ƒÇãˆúÿÿÿÿ8ˆôÎë+HàRMAJORZ
+CODE_SMELL
+q
+squid:S1061"9Replace this use of System.out or System.err by a logger.(Ší‘Âüÿÿÿÿ8•·ä›ë+HÌRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(±Ç˜ÎH¶RMAJORZ
+CODE_SMELL
+e
+squid:S106 "9Replace this use of System.out or System.err by a logger.(Òà´ÇH¯RMAJORZ
+CODE_SMELL
+q
+squid:S106+"9Replace this use of System.out or System.err by a logger.(„ó™‡ùÿÿÿÿ8•·ä›ë+HËRMAJORZ
+CODE_SMELL
+q
+squid:S106?"9Replace this use of System.out or System.err by a logger.(À»Ø‡úÿÿÿÿ8ˆôÎë+HßRMAJORZ
+CODE_SMELL
+‰squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Çµí‘8Ç˜™Ÿë+HéRCRITICALZ
+CODE_SMELL
+l
+squid:S1062"9Replace this use of System.out or System.err by a logger.(­–êâ8†®ë+HŞRMAJORZ
+CODE_SMELL
+q
+squid:S1060"9Replace this use of System.out or System.err by a logger.(„ó™‡ùÿÿÿÿ8¢óâ›ë+HÊRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(ö‘¨‚H´RMAJORZ
+CODE_SMELL
+l
+squid:S106J"9Replace this use of System.out or System.err by a logger.(ñ¥¼æ8¥…„Ÿë+HâRMAJORZ
+CODE_SMELL
+l
+squid:S106("9Replace this use of System.out or System.err by a logger.(‰¿äæ8éøÏ›ë+HçRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(š¨ˆ¼H²RMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿH°RMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(°¿³ÔH³RMAJORZ
+CODE_SMELL
+q
+squid:S106."9Replace this use of System.out or System.err by a logger.(Ší‘Âüÿÿÿÿ8¢Î©ë+HİRMAJORZ
+CODE_SMELL
+j
+squid:S1066"9Replace this use of System.out or System.err by a logger.(àêàÂüÿÿÿÿH·RMAJORZ
+CODE_SMELL
+l
+squid:S106\"9Replace this use of System.out or System.err by a logger.(Øµ¦‡8›ç’Ÿë+HçRMAJORZ
+CODE_SMELL
+q
+squid:S106^"9Replace this use of System.out or System.err by a logger.(ƒÇãˆúÿÿÿÿ8›ç’Ÿë+HèRMAJORZ
+CODE_SMELL
+q
+squid:S106:"9Replace this use of System.out or System.err by a logger.(›Ê‹Áùÿÿÿÿ8ãÎ×›ë+H·RMAJORZ
+CODE_SMELL
+q
+squid:S106D"9Replace this use of System.out or System.err by a logger.(Ù‚‰Ëıÿÿÿÿ8ÿ—ãë+HáRMAJORZ
+CODE_SMELL

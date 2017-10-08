@@ -1,0 +1,19 @@
+
+Zsquid:S1068"-Remove this unused "debugFile" private field.(ÅÑĞ£HRMAJORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHRINFOZ
+CODE_SMELL
+^squid:S1068",Remove this unused "language" private field.(ûòÁ‚üÿÿÿÿHRMAJORZ
+CODE_SMELL
+Zsquid:S1068"(Remove this unused "host" private field.(Ø¦øİûÿÿÿÿHRMAJORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿH‘RINFOZ
+CODE_SMELL
+Zsquid:S1068"-Remove this unused "debugMode" private field.(ÕßÆ•H’RMAJORZ
+CODE_SMELL
+ksquid:S1068"9Remove this unused "inputFileLocalisation" private field.(åÅ¯üûÿÿÿÿH“RMAJORZ
+CODE_SMELL
+lsquid:S1068":Remove this unused "outputFileLocalisation" private field.(¯àæ¯ûÿÿÿÿH”RMAJORZ
+CODE_SMELL
+Vsquid:S1068"*Remove this unused "server" private field.(† ‹)H•RMAJORZ
+CODE_SMELL

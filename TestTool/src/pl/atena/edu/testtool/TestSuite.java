@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package pl.atena.edu.testtool;
 
@@ -9,11 +9,8 @@ package pl.atena.edu.testtool;
  */
 public class TestSuite {
 
-	/**
-	 * 
-	 */
 	TestCase[] testCaseList;
-	
+
 	public TestSuite() {
 		// TODO Auto-generated constructor stub
 	}
@@ -21,8 +18,7 @@ public class TestSuite {
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public void ExecuteTestSuite() {
 
 	}
 
