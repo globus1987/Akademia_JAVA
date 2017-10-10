@@ -1,6 +1,15 @@
 package pl.atena.edu.akademia3;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
+
+import pl.atena.edu.akademia3.sklep.towar.Jogurt;
+import pl.atena.edu.akademia3.sklep.towar.Maslo;
+import pl.atena.edu.akademia3.sklep.towar.Mleko;
+import pl.atena.edu.akademia3.sklep.towar.Papierosy;
+import pl.atena.edu.akademia3.sklep.towar.Piwo;
+import pl.atena.edu.akademia3.sklep.towar.Towar;
 
 /**
  * @author Arkadiusz
@@ -10,6 +19,7 @@ public class SklepNowy {
 	private Integer stanMagazynowyPiwa;
 	private String nazwaSklepu;
 	private static Scanner scanner = new Scanner(System.in);
+	private List<Towar> towary;
 
 	/**
 	 * konstruktor z domyœlnym 0 stanu magazynowego
@@ -17,6 +27,18 @@ public class SklepNowy {
 	public SklepNowy() {
 		this.nazwaSklepu = "sklep pusty na starcie";
 		this.stanMagazynowyPiwa = Integer.valueOf(0);
+		Jogurt jogurt = new Jogurt();
+		Maslo maslo = new Maslo();
+		Mleko mleko = new Mleko();
+		Papierosy papierosy = new Papierosy();
+		Piwo piwo = new Piwo();
+		List<Towar> towaryinicjalne = new ArrayList<>();
+		towaryinicjalne.add(jogurt);
+		towaryinicjalne.add(maslo);
+		towaryinicjalne.add(mleko);
+		towaryinicjalne.add(papierosy);
+		towaryinicjalne.add(piwo);
+		this.towary = towaryinicjalne;
 	}
 
 	/**
@@ -34,19 +56,23 @@ public class SklepNowy {
 	 */
 	private void dostarczPiwo() {
 		System.out.println("Ile dostarczamy do sklepu " + this.nazwaSklepu + " ?");
-		Integer n=0;
+		Integer n = 0;
 		try {
 			n = Integer.valueOf(scanner.nextLine());
-		}catch (Exception e) {
+		} catch (Exception e) {
 			System.out.println("B³êdne dane!!!");
-		};
-		if (n<1) {
+		}
+		;
+		if (n < 1) {
 			System.out.println("Niepoprawna iloœæ piw do dostawy");
 			return;
 		}
 		this.stanMagazynowyPiwa += n;
-		System.out.println("Dostarczono " + n + " piw do sklepu "+this.nazwaSklepu);
+		System.out.println("Dostarczono " + n + " piw do sklepu " + this.nazwaSklepu);
 	}
+
+
+
 
 	/**
 	 * @param osoba
@@ -78,12 +104,13 @@ public class SklepNowy {
 	 */
 	private void sprzedajPiwo(final OsobaFizyczna osoba) {
 		System.out.println("Ile piw dla " + osoba.getImie() + " ?");
-		Integer n=0;
+		Integer n = 0;
 		try {
 			n = Integer.valueOf(scanner.nextLine());
-		}catch (Exception e) {
+		} catch (Exception e) {
 			System.out.println("B³êdne dane!!!");
-		};
+		}
+		;
 		if (this.sprawdzIloscPiwaDoZakupu(n)) {
 
 			if (this.sprawdzPelnoletnoscKlienta(osoba)) {
@@ -116,64 +143,89 @@ public class SklepNowy {
 			return true;
 		}
 	}
+	private void dostawa() {
+		for (Towar towar : this.towary) {
+			System.out.println("ile " + towar.nazwaProduktu() + "?");
+			Integer n = Integer.valueOf(0);
+			try {
+				n = Integer.valueOf(scanner.nextLine());
+			} catch (Exception e) {
+				System.out.println("B³êdne dane!!!");
+			}
+			towar.dostarczTowar(n);
+		}
+	}
+	public void procesSprzedazy(final Osoba klient) {
+		for (Towar towar : this.towary) {
+			System.out.println("ile " + towar.nazwaProduktu() + " chce kupiæ klient?");
+			Integer n = Integer.valueOf(0);
+			try {
+				n = Integer.valueOf(scanner.nextLine());
+			} catch (Exception e) {
+				System.out.println("B³êdne dane!!!");
+			}
+			if (this.walidujZakup()) {
+				this.sprzedajTowar(towar towar);
+			}
+			else
+			{
+				return;
+			}
+		}
+	}
+	public boolean walidujZakup() {
+		return true;
+	}
+	public void sprzedajTowar(final Towar towar) {
+
+	}
 
 	public static void main(final String[] args) {
 
-		SklepNowy monopolowy = new SklepNowy();
-		SklepNowy monopolowy2 = new SklepNowy(10);
+		SklepNowy sklepik = new SklepNowy();
+
 		OsobaFizyczna klient = new OsobaFizyczna("Jan", "Nowak", 17);
 		OsobaFizyczna klient2 = new OsobaFizyczna("Marek", "Kowalski", 22);
 
 		Integer x;
 		do {
-			System.out.println("\n1. dostarcz do pierwszego\n"
-					+ "2. dostarcz do drugiego\n"
-					+ "3. Jan kupuje z pierwszego\n"
-					+ "4. Marek kupuje z drugiego\n5. Jan kupuje z drugiego\n"
-					+ "6. Marek kupuje z drugiego\n"
-					+ "7. Wyœwietl stan\n"
-					+ "8. zakoñcz");
+			System.out.println("\n1. Dostawa\n" + "2. Sprzedaj Janowi\n" + "3. Sprzedaj Markowi\n"
+					+ "4. Marek kupuje z drugiego\n5. Jan kupuje z drugiego\n" + "6. Marek kupuje z drugiego\n"
+					+ "7. Wyœwietl stan\n" + "8. zakoñcz");
 			x = Integer.valueOf(scanner.nextLine());
 			switch (x) {
 			case 1:
-				monopolowy.dostarczPiwo();
+				sklepik.dostawa();
 				break;
 			case 2:
-				monopolowy2.dostarczPiwo();
+				sklepik.procesSprzedazy(klient);
 				break;
 			case 3:
-				monopolowy.sprzedajPiwo(klient);
+				sklepik.procesSprzedazy(klient2);
 				break;
 			case 4:
-				monopolowy.sprzedajPiwo(klient2);
+				sklepik.sprzedajPiwo(klient2);
 				break;
 			case 5:
-				monopolowy2.sprzedajPiwo(klient);
+				sklepik.sprzedajPiwo(klient);
 				break;
 			case 6:
-				monopolowy2.sprzedajPiwo(klient2);
+				sklepik.sprzedajPiwo(klient2);
 				break;
 			case 7:
-				System.out.println(monopolowy);
-				System.out.println(monopolowy2);
-				System.out.println(klient);
-				System.out.println(klient2);
+				System.out.println(sklepik);
 				System.out.println("\n");
 			default:
 				break;
 			}
-		}
-		while (
-				x.compareTo(8)<0&&x.compareTo(0)>0
-				);
-
+		} while (x.compareTo(8) < 0 && x.compareTo(0) > 0);
 
 	}
 
 	@Override
 	public String toString() {
-		return String.format("Sklep [stanMagazynowyPiwa=%s, nazwaSklepu=%s]", this.stanMagazynowyPiwa,
-				this.nazwaSklepu);
+		return String.format("SklepNowy [nazwaSklepu=%s,\ntowary=%s]",
+				this.nazwaSklepu, this.towary);
 	}
 
 }

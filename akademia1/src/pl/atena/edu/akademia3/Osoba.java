@@ -7,4 +7,7 @@ public interface Osoba {
 	 * @return
 	 */
 	String nazwa();
+	default String nazwaNowa() {
+		return "Nowa Osoba";
+	}
 }

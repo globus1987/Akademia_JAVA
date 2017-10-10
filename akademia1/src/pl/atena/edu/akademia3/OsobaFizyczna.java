@@ -1,6 +1,7 @@
 package pl.atena.edu.akademia3;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -179,15 +180,30 @@ public class OsobaFizyczna implements Osoba {
 		List<Osoba> osoby = new ArrayList<>();
 		osoby.add(Jan);
 		osoby.add(Atena);
-		osoby.forEach(i->System.out.println(i.nazwa()));
+		//osoby.forEach(i->System.out.println(i.nazwa()));
 		OsobaFizyczna Marek = new OsobaFizyczna("Marek", "Kowalski");
 		osoby.add(Marek);
-		osoby.forEach(i->System.out.println(i.nazwa()));
+		//osoby.forEach(i->System.out.println(i.nazwa()));
+		for (Osoba osoba:osoby) {
+			if (osoba instanceof OsobaFizyczna) {
+				System.out.println(osoba.nazwa());
+			}
+		}
+		osoby.sort(new Comparator<Osoba>(){
+			@Override
+			public int compare(final Osoba o1,final Osoba o2) {
+				return o1.nazwa().length()-o2.nazwa().length();
+			}
+		});
 
 	}
 
 	@Override
 	public String nazwa() {
+		return String.format("%s %s", this.imie, this.nazwisko);
+	}
+	@Override
+	public String nazwaNowa() {
 		return String.format("%s %s", this.imie, this.nazwisko);
 	}
 
