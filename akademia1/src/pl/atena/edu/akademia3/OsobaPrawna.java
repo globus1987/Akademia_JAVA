@@ -6,6 +6,9 @@ public class OsobaPrawna implements Osoba {
 	public OsobaPrawna(final String nazwa) {
 		this.nazwa=nazwa;
 	}
+	public void setNazwa(final String nazwa) {
+		this.nazwa = nazwa;
+	}
 	@Override
 	public String nazwa() {
 		return this.nazwa;

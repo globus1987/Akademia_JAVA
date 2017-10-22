@@ -21,12 +21,26 @@ public class ListaTowarow {
 		towaryinicjalne.sort(new Comparator<Towar>() {
 			@Override
 			public int compare(final Towar o1, final Towar o2) {
-				return o1.getCena().compareTo(o2.getCena());
+				int iloscCmp = o1.podajIloscTowaru().compareTo(o2.podajIloscTowaru());
+				if (iloscCmp!=0)
+				{
+					return iloscCmp;
+				}
+				return o1.getCena().compareTo(o2.getCena()) ;
+
 			}
 		});
 		this.towary = towaryinicjalne;	}
 
 	public List<Towar> getTowary() {
+		this.towary.sort(new Comparator<Towar>(){
+			@Override
+			public int compare(final Towar o1, final Towar o2) {
+				return o1.getCena().compareTo(o2.getCena());
+			}
+
+		}
+				);
 		return this.towary;
 	}
 
