@@ -6,9 +6,9 @@ public class Maslo extends Towar {
 
 	public Maslo() {
 		// TODO Auto-generated constructor stub
+		super();
 		this.nazwa=RodzajTowaru.Maslo;
 		this.cena=BigDecimal.valueOf(5.50);
-		this.ilosc=Integer.valueOf(0);
 
 	}
 

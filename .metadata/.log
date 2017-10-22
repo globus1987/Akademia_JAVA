@@ -1199,3 +1199,325 @@ org.eclipse.swt.SWTException: Invalid thread access
 	at java.util.stream.ReferencePipeline.collect(Unknown Source)
 	at org.sonarlint.eclipse.ui.internal.SonarLintChangeListener$AnalyzeOpenedFiles.run(SonarLintChangeListener.java:98)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-08 15:26:49.104
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-08 15:26:49.110
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-08 15:57:51.834
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-08 15:57:51.850
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2017-10-08 21:25:49.385
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2017-10-08 21:25:49.385
+!MESSAGE session context was:(profile=D__Akademia JAVA_eclipse_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-10-08 21:25:49.385
+!MESSAGE No repository found containing: osgi.bundle,com.google.inject,3.0.0.v201605172100
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-10-08 21:25:49.385
+!MESSAGE No repository found containing: osgi.bundle,com.google.inject.multibindings,3.0.0.v201605172100
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-10-08 21:26:44.467
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2017-10-08 21:26:44.467
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.467
+!MESSAGE Software being installed: Code Recommenders for Java Developers 2.4.10.v20170911-1410 (org.eclipse.recommenders.rcp.feature.feature.group 2.4.10.v20170911-1410)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.467
+!MESSAGE Software currently installed: Code Recommenders Mylyn Integration 2.4.9.v20170613-1301 (org.eclipse.recommenders.mylyn.rcp.feature.feature.group 2.4.9.v20170613-1301)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-10-08 21:26:44.467
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.467
+!MESSAGE Code Recommenders Code‐Completion UI 2.4.10.v20170911-1410 (org.eclipse.recommenders.completion.rcp 2.4.10.v20170911-1410)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.467
+!MESSAGE Code Recommenders Code‐Completion UI 2.4.9.v20170613-1301 (org.eclipse.recommenders.completion.rcp 2.4.9.v20170613-1301)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-10-08 21:26:44.467
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.467
+!MESSAGE From: Code Recommenders Mylyn Completion UI 2.4.9.v20170613-1301 (org.eclipse.recommenders.mylyn.rcp 2.4.9.v20170613-1301)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.467
+!MESSAGE To: bundle org.eclipse.recommenders.completion.rcp [2.4.9,2.4.10)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-10-08 21:26:44.467
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.467
+!MESSAGE From: Code Recommenders Mylyn Integration 2.4.9.v20170613-1301 (org.eclipse.recommenders.mylyn.rcp.feature.feature.group 2.4.9.v20170613-1301)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.467
+!MESSAGE To: org.eclipse.recommenders.mylyn.rcp [2.4.9.v20170613-1301]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-10-08 21:26:44.467
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.467
+!MESSAGE From: Code Recommenders for Java Developers 2.4.10.v20170911-1410 (org.eclipse.recommenders.rcp.feature.feature.group 2.4.10.v20170911-1410)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.467
+!MESSAGE To: org.eclipse.recommenders.completion.rcp [2.4.10.v20170911-1410]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-10-08 21:26:44.477
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2017-10-08 21:26:44.477
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.477
+!MESSAGE Software being installed: Code Recommenders for Java Developers 2.4.10.v20170911-1410 (org.eclipse.recommenders.rcp.feature.feature.group 2.4.10.v20170911-1410)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.477
+!MESSAGE Software currently installed: Code Recommenders Mylyn Integration 2.4.9.v20170613-1301 (org.eclipse.recommenders.mylyn.rcp.feature.feature.group 2.4.9.v20170613-1301)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-10-08 21:26:44.477
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.477
+!MESSAGE Code Recommenders Code‐Completion UI 2.4.10.v20170911-1410 (org.eclipse.recommenders.completion.rcp 2.4.10.v20170911-1410)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.477
+!MESSAGE Code Recommenders Code‐Completion UI 2.4.9.v20170613-1301 (org.eclipse.recommenders.completion.rcp 2.4.9.v20170613-1301)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-10-08 21:26:44.477
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.477
+!MESSAGE From: Code Recommenders Mylyn Completion UI 2.4.9.v20170613-1301 (org.eclipse.recommenders.mylyn.rcp 2.4.9.v20170613-1301)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.477
+!MESSAGE To: bundle org.eclipse.recommenders.completion.rcp [2.4.9,2.4.10)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-10-08 21:26:44.477
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.477
+!MESSAGE From: Code Recommenders Mylyn Integration 2.4.9.v20170613-1301 (org.eclipse.recommenders.mylyn.rcp.feature.feature.group 2.4.9.v20170613-1301)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.477
+!MESSAGE To: org.eclipse.recommenders.mylyn.rcp [2.4.9.v20170613-1301]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-10-08 21:26:44.477
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.477
+!MESSAGE From: Code Recommenders for Java Developers 2.4.10.v20170911-1410 (org.eclipse.recommenders.rcp.feature.feature.group 2.4.10.v20170911-1410)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.477
+!MESSAGE To: org.eclipse.recommenders.completion.rcp [2.4.10.v20170911-1410]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-10-08 21:26:44.497
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2017-10-08 21:26:44.497
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.497
+!MESSAGE Software being installed: Code Recommenders for Java Developers 2.4.10.v20170911-1410 (org.eclipse.recommenders.rcp.feature.feature.group 2.4.10.v20170911-1410)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.497
+!MESSAGE Software currently installed: Code Recommenders Mylyn Integration 2.4.9.v20170613-1301 (org.eclipse.recommenders.mylyn.rcp.feature.feature.group 2.4.9.v20170613-1301)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-10-08 21:26:44.497
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.497
+!MESSAGE Code Recommenders Code‐Completion UI 2.4.10.v20170911-1410 (org.eclipse.recommenders.completion.rcp 2.4.10.v20170911-1410)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.497
+!MESSAGE Code Recommenders Code‐Completion UI 2.4.9.v20170613-1301 (org.eclipse.recommenders.completion.rcp 2.4.9.v20170613-1301)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-10-08 21:26:44.497
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.497
+!MESSAGE From: Code Recommenders Mylyn Completion UI 2.4.9.v20170613-1301 (org.eclipse.recommenders.mylyn.rcp 2.4.9.v20170613-1301)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.497
+!MESSAGE To: bundle org.eclipse.recommenders.completion.rcp [2.4.9,2.4.10)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-10-08 21:26:44.497
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.497
+!MESSAGE From: Code Recommenders Mylyn Integration 2.4.9.v20170613-1301 (org.eclipse.recommenders.mylyn.rcp.feature.feature.group 2.4.9.v20170613-1301)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.497
+!MESSAGE To: org.eclipse.recommenders.mylyn.rcp [2.4.9.v20170613-1301]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-10-08 21:26:44.497
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.497
+!MESSAGE From: Code Recommenders for Java Developers 2.4.10.v20170911-1410 (org.eclipse.recommenders.rcp.feature.feature.group 2.4.10.v20170911-1410)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.497
+!MESSAGE To: org.eclipse.recommenders.completion.rcp [2.4.10.v20170911-1410]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-10-08 21:26:44.507
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2017-10-08 21:26:44.507
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.507
+!MESSAGE Software being installed: Code Recommenders for Java Developers 2.4.10.v20170911-1410 (org.eclipse.recommenders.rcp.feature.feature.group 2.4.10.v20170911-1410)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.507
+!MESSAGE Software currently installed: Code Recommenders Mylyn Integration 2.4.9.v20170613-1301 (org.eclipse.recommenders.mylyn.rcp.feature.feature.group 2.4.9.v20170613-1301)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-10-08 21:26:44.507
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.507
+!MESSAGE Code Recommenders Code‐Completion UI 2.4.10.v20170911-1410 (org.eclipse.recommenders.completion.rcp 2.4.10.v20170911-1410)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.507
+!MESSAGE Code Recommenders Code‐Completion UI 2.4.9.v20170613-1301 (org.eclipse.recommenders.completion.rcp 2.4.9.v20170613-1301)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-10-08 21:26:44.507
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.507
+!MESSAGE From: Code Recommenders Mylyn Completion UI 2.4.9.v20170613-1301 (org.eclipse.recommenders.mylyn.rcp 2.4.9.v20170613-1301)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.507
+!MESSAGE To: bundle org.eclipse.recommenders.completion.rcp [2.4.9,2.4.10)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-10-08 21:26:44.507
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.507
+!MESSAGE From: Code Recommenders Mylyn Integration 2.4.9.v20170613-1301 (org.eclipse.recommenders.mylyn.rcp.feature.feature.group 2.4.9.v20170613-1301)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.507
+!MESSAGE To: org.eclipse.recommenders.mylyn.rcp [2.4.9.v20170613-1301]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-10-08 21:26:44.507
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.507
+!MESSAGE From: Code Recommenders for Java Developers 2.4.10.v20170911-1410 (org.eclipse.recommenders.rcp.feature.feature.group 2.4.10.v20170911-1410)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-08 21:26:44.507
+!MESSAGE To: org.eclipse.recommenders.completion.rcp [2.4.10.v20170911-1410]
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2017-10-08 21:26:52.017
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2017-10-08 21:26:52.017
+!MESSAGE session context was:(profile=D__Akademia JAVA_eclipse_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-10-08 21:26:52.017
+!MESSAGE No repository found containing: osgi.bundle,com.google.inject,3.0.0.v201605172100
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-10-08 21:26:52.017
+!MESSAGE No repository found containing: osgi.bundle,com.google.inject.multibindings,3.0.0.v201605172100
+!SESSION 2017-10-15 16:33:29.743 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-15 16:33:51.657
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Arkadiusz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-15 16:46:26.863
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-15 16:46:26.867
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 11 2017-10-15 16:46:27.943
+!MESSAGE The model index service was accessed either before it started or after it finished running.
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:126)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelIndex.suggest(EclipseModelIndex.java:211)
+	at org.eclipse.recommenders.models.SimpleModelProvider.acquireModel(SimpleModelProvider.java:70)
+	at org.eclipse.recommenders.models.PoolingModelProvider.access$0(PoolingModelProvider.java:1)
+	at org.eclipse.recommenders.models.PoolingModelProvider$ModelPoolFactoryMediator.makeObject(PoolingModelProvider.java:96)
+	at org.eclipse.recommenders.models.PoolingModelProvider$ModelPoolFactoryMediator.makeObject(PoolingModelProvider.java:1)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.eclipse.recommenders.models.PoolingModelProvider.acquireModel(PoolingModelProvider.java:67)
+	at org.eclipse.recommenders.internal.calls.rcp.RcpCallModelProvider.acquireModel(RcpCallModelProvider.java:65)
+	at org.eclipse.recommenders.internal.calls.rcp.RcpCallModelProvider.acquireModel(RcpCallModelProvider.java:1)
+	at org.eclipse.recommenders.internal.models.rcp.PrefetchModelArchiveJob.run(PrefetchModelArchiveJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SESSION 2017-10-15 19:56:26.587 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-15 19:56:34.545
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Arkadiusz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-15 19:59:46.508
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-15 19:59:46.513
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-15 21:33:31.461
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-15 21:33:31.466
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2017-10-22 08:59:08.294 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-22 08:59:25.296
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Arkadiusz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-22 09:01:44.506
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-22 09:01:44.511
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-22 09:02:14.807
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-22 09:02:14.812
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.sonarlint.eclipse.core 2 0 2017-10-22 09:29:31.391
+!MESSAGE Error when executing SonarLint analysis
+!STACK 0
+org.sonar.squidbridge.api.AnalysisException: SonarQube is unable to analyze file : 'D:\Akademia JAVA\projekty\Akademia_JAVA\akademia1\src\pl\atena\edu\akademia3\sklep\towar\OsobaFizyczna.java'
+	at org.sonar.java.ast.JavaAstScanner.simpleScan(JavaAstScanner.java:96)
+	at org.sonar.java.ast.JavaAstScanner.scan(JavaAstScanner.java:63)
+	at org.sonar.java.JavaSquid.scanSources(JavaSquid.java:119)
+	at org.sonar.java.JavaSquid.scan(JavaSquid.java:113)
+	at org.sonar.plugins.java.JavaSquidSensor.execute(JavaSquidSensor.java:84)
+	at org.sonarsource.sonarlint.core.analyzer.sensor.SensorWrapper.analyse(SensorWrapper.java:52)
+	at org.sonarsource.sonarlint.core.analyzer.sensor.SensorsExecutor.executeSensor(SensorsExecutor.java:76)
+	at org.sonarsource.sonarlint.core.analyzer.sensor.SensorsExecutor.execute(SensorsExecutor.java:64)
+	at org.sonarsource.sonarlint.core.analyzer.sensor.PhaseExecutor.execute(PhaseExecutor.java:44)
+	at org.sonarsource.sonarlint.core.container.analysis.AnalysisContainer.doAfterStart(AnalysisContainer.java:143)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer.startComponents(ComponentContainer.java:125)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer.execute(ComponentContainer.java:110)
+	at org.sonarsource.sonarlint.core.container.standalone.StandaloneGlobalContainer.analyze(StandaloneGlobalContainer.java:125)
+	at org.sonarsource.sonarlint.core.StandaloneSonarLintEngineImpl.analyze(StandaloneSonarLintEngineImpl.java:91)
+	at org.sonarlint.eclipse.core.internal.jobs.StandaloneSonarLintClientFacade.runAnalysis(StandaloneSonarLintClientFacade.java:75)
+	at org.sonarlint.eclipse.core.internal.jobs.AnalyzeProjectJob.run(AnalyzeProjectJob.java:429)
+	at org.sonarlint.eclipse.core.internal.jobs.AnalyzeProjectJob.runAnalysisAndUpdateMarkers(AnalyzeProjectJob.java:182)
+	at org.sonarlint.eclipse.core.internal.jobs.AnalyzeProjectJob.doRun(AnalyzeProjectJob.java:143)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractSonarProjectJob.runInWorkspace(AbstractSonarProjectJob.java:43)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.lang.NullPointerException
+	at org.sonar.java.AnalyzerMessage.textSpanFor(AnalyzerMessage.java:123)
+	at org.sonar.java.model.DefaultJavaFileScannerContext.createAnalyzerMessage(DefaultJavaFileScannerContext.java:154)
+	at org.sonar.java.model.DefaultJavaFileScannerContext.reportIssueWithFlow(DefaultJavaFileScannerContext.java:128)
+	at org.sonar.java.model.DefaultJavaFileScannerContext.reportIssue(DefaultJavaFileScannerContext.java:121)
+	at org.sonar.java.model.DefaultJavaFileScannerContext.reportIssue(DefaultJavaFileScannerContext.java:115)
+	at org.sonar.java.checks.ImmediatelyReturnedVariableCheck.visitBlock(ImmediatelyReturnedVariableCheck.java:77)
+	at org.sonar.java.model.statement.BlockTreeImpl.accept(BlockTreeImpl.java:77)
+	at org.sonar.plugins.java.api.tree.BaseTreeVisitor.scan(BaseTreeVisitor.java:43)
+	at org.sonar.plugins.java.api.tree.BaseTreeVisitor.visitMethod(BaseTreeVisitor.java:80)
+	at org.sonar.java.model.declaration.MethodTreeImpl.accept(MethodTreeImpl.java:218)
+	at org.sonar.plugins.java.api.tree.BaseTreeVisitor.scan(BaseTreeVisitor.java:43)
+	at org.sonar.plugins.java.api.tree.BaseTreeVisitor.scan(BaseTreeVisitor.java:37)
+	at org.sonar.plugins.java.api.tree.BaseTreeVisitor.visitClass(BaseTreeVisitor.java:69)
+	at org.sonar.java.model.declaration.ClassTreeImpl.accept(ClassTreeImpl.java:194)
+	at org.sonar.plugins.java.api.tree.BaseTreeVisitor.scan(BaseTreeVisitor.java:43)
+	at org.sonar.plugins.java.api.tree.BaseTreeVisitor.scan(BaseTreeVisitor.java:37)
+	at org.sonar.plugins.java.api.tree.BaseTreeVisitor.visitCompilationUnit(BaseTreeVisitor.java:55)
+	at org.sonar.java.model.JavaTree$CompilationUnitTreeImpl.accept(JavaTree.java:184)
+	at org.sonar.plugins.java.api.tree.BaseTreeVisitor.scan(BaseTreeVisitor.java:43)
+	at org.sonar.java.checks.ImmediatelyReturnedVariableCheck.scanFile(ImmediatelyReturnedVariableCheck.java:55)
+	at org.sonar.java.model.VisitorsBridge.visitFile(VisitorsBridge.java:117)
+	at org.sonar.java.ast.JavaAstScanner.simpleScan(JavaAstScanner.java:87)
+	... 20 more
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 11 2017-10-22 09:30:59.790
+!MESSAGE The model index service was accessed either before it started or after it finished running.
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:126)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelIndex.suggest(EclipseModelIndex.java:211)
+	at org.eclipse.recommenders.models.SimpleModelProvider.acquireModel(SimpleModelProvider.java:70)
+	at org.eclipse.recommenders.models.PoolingModelProvider.access$0(PoolingModelProvider.java:1)
+	at org.eclipse.recommenders.models.PoolingModelProvider$ModelPoolFactoryMediator.makeObject(PoolingModelProvider.java:96)
+	at org.eclipse.recommenders.models.PoolingModelProvider$ModelPoolFactoryMediator.makeObject(PoolingModelProvider.java:1)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.eclipse.recommenders.models.PoolingModelProvider.acquireModel(PoolingModelProvider.java:67)
+	at org.eclipse.recommenders.internal.calls.rcp.RcpCallModelProvider.acquireModel(RcpCallModelProvider.java:65)
+	at org.eclipse.recommenders.internal.calls.rcp.RcpCallModelProvider.acquireModel(RcpCallModelProvider.java:1)
+	at org.eclipse.recommenders.internal.models.rcp.PrefetchModelArchiveJob.run(PrefetchModelArchiveJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)

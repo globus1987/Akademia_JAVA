@@ -3,7 +3,7 @@ package pl.atena.edu.akademia2;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-import pl.atena.edu.akademia3.OsobaFizyczna;
+import pl.atena.edu.akademia3.sklep.towar.OsobaFizyczna;
 
 public class WielkiDecimal {
 

@@ -16,14 +16,32 @@ public class Towar implements Produkt {
 		}
 
 	}
+
+	public BigDecimal getCena() {
+		return this.cena;
+	}
+
+	public void sprzedajTowar(final Integer ilosc) {
+		if (ilosc!=null) {
+			this.ilosc-=ilosc;
+		}
+
+	}
+	public Integer podajIloscTowaru() {
+		return this.ilosc;
+	}
+
 	@Override
 	public String toString() {
-		return String.format("Towar [nazwa=%s, cena=%s, ilosc=%s]\n", this.nazwa, this.cena, this.ilosc);
+		return String.format("Towar [nazwa=%s, cena=%s, ilosc=%s\n]", this.nazwa, this.cena, this.ilosc);
 	}
 
 	@Override
 	public RodzajTowaru nazwaProduktu() {
 		return this.nazwa;
 	}
-
+	@Override
+	public Boolean dlaPelnoletnich() {
+		return false;
+	};
 }

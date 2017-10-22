@@ -6,9 +6,9 @@ public class Mleko extends Towar {
 
 	public Mleko() {
 		// TODO Auto-generated constructor stub
+		super();
 		this.nazwa=RodzajTowaru.Mleko;
 		this.cena=BigDecimal.valueOf(2.50);
-		this.ilosc=Integer.valueOf(0);
 
 	}
 

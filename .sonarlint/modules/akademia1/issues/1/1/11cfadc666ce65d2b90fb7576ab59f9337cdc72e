@@ -1,0 +1,58 @@
+
+zsquid:UnusedPrivateMethod)"?Remove this unused private "sprawdzPelnoletnoscKlienta" method.(ëÔïõHœ&RMAJORZ
+CODE_SMELL
+squid:S1192C"QDefine a constant instead of duplicating this literal "BÅ‚Ä™dne dane!!!" 3 times.(Ÿ¸ò¡H&RCRITICALZ
+CODE_SMELL
+j
+squid:S1064"9Replace this use of System.out or System.err by a logger.(¾®œàúÿÿÿÿH&RMAJORZ
+CODE_SMELL
+j
+squid:S1067"9Replace this use of System.out or System.err by a logger.(øí³ÓúÿÿÿÿHŸ&RMAJORZ
+CODE_SMELL
+j
+squid:S106>"9Replace this use of System.out or System.err by a logger.(¿Õ¹şÿÿÿÿH &RMAJORZ
+CODE_SMELL
+e
+squid:S106C"9Replace this use of System.out or System.err by a logger.(Ÿ¸ò¡H¡&RMAJORZ
+CODE_SMELL
+e
+squid:S106I"9Replace this use of System.out or System.err by a logger.(Ÿ¸ò¡H¢&RMAJORZ
+CODE_SMELL
+e
+squid:S106Q"9Replace this use of System.out or System.err by a logger.(¨¡Ê‰H£&RMAJORZ
+CODE_SMELL
+e
+squid:S106V"9Replace this use of System.out or System.err by a logger.(Ÿ¸ò¡H¤&RMAJORZ
+CODE_SMELL
+e
+squid:S106a"9Replace this use of System.out or System.err by a logger.(¯ùÕ…H¥&RMAJORZ
+CODE_SMELL
+d
+squid:S106y"9Replace this use of System.out or System.err by a logger.(‡ÛiH¦&RMAJORZ
+CODE_SMELL
+k
+squid:S106‡"9Replace this use of System.out or System.err by a logger.(…™ŞåùÿÿÿÿH§&RMAJORZ
+CODE_SMELL
+f
+squid:S106Œ"9Replace this use of System.out or System.err by a logger.(”µ¦ÜH¨&RMAJORZ
+CODE_SMELL
+k
+squid:S106™"9Replace this use of System.out or System.err by a logger.(®…óäÿÿÿÿÿH©&RMAJORZ
+CODE_SMELL
+k
+squid:S106š"9Replace this use of System.out or System.err by a logger.(ñ„ß¢ùÿÿÿÿHª&RMAJORZ
+CODE_SMELL
+f
+squid:S106›"9Replace this use of System.out or System.err by a logger.(ñ‡ï…H«&RMAJORZ
+CODE_SMELL
+k
+squid:S106œ"9Replace this use of System.out or System.err by a logger.(ƒÇãˆúÿÿÿÿH¬&RMAJORZ
+CODE_SMELL
+ssquid:S1126h"AReplace this if-then-else statement by a single return statement.(íİã±şÿÿÿÿH­&RMINORZ
+CODE_SMELL
+Wsquid:S00108G")Either remove or fill this block of code.(£ì»ÕH®&RMAJORZ
+CODE_SMELL
+squid:S00117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÚ¨”H¯&RMINORZ
+CODE_SMELL
+squid:S3457§"Q%n should be used in place of \n to produce the platform-specific line separator.(ğ—ÏH°&RMAJORZ
+CODE_SMELL

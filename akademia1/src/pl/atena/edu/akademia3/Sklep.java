@@ -1,5 +1,7 @@
 package pl.atena.edu.akademia3;
 
+import pl.atena.edu.akademia3.sklep.towar.OsobaFizyczna;
+
 /**
  * @author Arkadiusz
  *
