@@ -1,36 +1,0 @@
-
-f
-squid:S106›"9Replace this use of System.out or System.err by a logger.(±¢H…'RMAJORZ
-CODE_SMELL
-j
-squid:S106?"9Replace this use of System.out or System.err by a logger.(Íùì’şÿÿÿÿHˆ'RMAJORZ
-CODE_SMELL
-f
-squid:S106"9Replace this use of System.out or System.err by a logger.(èú‚ÉH‡'RMAJORZ
-CODE_SMELL
-e
-squid:S106("9Replace this use of System.out or System.err by a logger.(£ÆÏÁH†'RMAJORZ
-CODE_SMELL
-e
-squid:S106p"9Replace this use of System.out or System.err by a logger.(æßËHŠ'RMAJORZ
-CODE_SMELL
-€squid:S00117¢"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³¾¾H'RMINORZ
-CODE_SMELL
-k
-squid:S106¬"9Replace this use of System.out or System.err by a logger.(Š³Œ±şÿÿÿÿH‹'RMAJORZ
-CODE_SMELL
-ysquid:CommentedOutCodeLine¦"<This block of commented-out lines of code should be removed.(§ìÍÎH„'RMAJORZ
-CODE_SMELL
-[squid:S1604¯"(Make this anonymous inner class a lambda(ÄÒÙôüÿÿÿÿH'RMAJORZ
-CODE_SMELL
-}squid:S00100ˆ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åËÄHŒ'RMINORZ
-CODE_SMELL
-…squid:S00117¡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰©™çüÿÿÿÿH'RMINORZ
-CODE_SMELL
-…squid:S00117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØÇÛöÿÿÿÿÿH‘'RMINORZ
-CODE_SMELL
-f
-squid:S106Ÿ"9Replace this use of System.out or System.err by a logger.(Üš¹’H‰'RMAJORZ
-CODE_SMELL
-ysquid:CommentedOutCodeLine©"<This block of commented-out lines of code should be removed.(§ìÍÎHƒ'RMAJORZ
-CODE_SMELL

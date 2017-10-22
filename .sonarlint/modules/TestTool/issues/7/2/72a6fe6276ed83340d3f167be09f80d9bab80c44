@@ -1,13 +1,0 @@
-
-½squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ş„Öúÿÿÿÿ8ÛĞá¯ï+H¶RCRITICALZ
-CODE_SMELL
-^squid:S1068",Remove this unused "tcNumber" private field.(¢ÀœÕúÿÿÿÿHÜRMAJORZ
-CODE_SMELL
-^squid:S1068"2Remove this unused "expectedResult" private field.(Õ£‘HÙRMAJORZ
-CODE_SMELL
-\squid:S1068"*Remove this unused "tcName" private field.(ÅÙå†ûÿÿÿÿHÛRMAJORZ
-CODE_SMELL
-isquid:S1068"0Remove this unused "actualResult" private field.(š¢„ıÿÿÿÿ8˜ÍÜ¯ï+H­RMAJORZ
-CODE_SMELL
-jsquid:S1068"6Remove this unused "regressionTestCase" private field.(ü‚œá8ÃòÛ¯ï+HRMAJORZ
-CODE_SMELL

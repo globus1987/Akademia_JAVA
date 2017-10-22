@@ -1,53 +1,0 @@
-
-q
-squid:S106+"9Replace this use of System.out or System.err by a logger.(ƒÛÀªıÿÿÿÿ8Ñ¹ ¡ë+HÂRMAJORZ
-CODE_SMELL
-q
-squid:S106)"9Replace this use of System.out or System.err by a logger.(­İ““ıÿÿÿÿ8ëÕ¢ë+HÁRMAJORZ
-CODE_SMELL
-\squid:S1481"(Remove this unused "nwd" local variable.(È´ªã8Ò¾ ë+HÃRMINORZ
-CODE_SMELL
-q
-squid:S106#"9Replace this use of System.out or System.err by a logger.(§ãÄ¾úÿÿÿÿ8Ùİ ¢ë+H»RMAJORZ
-CODE_SMELL
-l
-squid:S106$"9Replace this use of System.out or System.err by a logger.(Ş³¼Ñ8Ùİ ¢ë+H¼RMAJORZ
-CODE_SMELL
-l
-squid:S106("9Replace this use of System.out or System.err by a logger.(Ş³¼Ñ8ãöº¢ë+H±RMAJORZ
-CODE_SMELL
-q
-squid:S106"9Replace this use of System.out or System.err by a logger.(¶ëüºşÿÿÿÿ8„ñö¡ë+HºRMAJORZ
-CODE_SMELL
-½squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¬×€áıÿÿÿÿ8ıŸë+H²RCRITICALZ
-CODE_SMELL
-q
-squid:S106'"9Replace this use of System.out or System.err by a logger.(§ãÄ¾úÿÿÿÿ8èŞ¢ë+H³RMAJORZ
-CODE_SMELL
-l
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûı8áÇÈ ë+H¶RMAJORZ
-CODE_SMELL
-l
-squid:S106!"9Replace this use of System.out or System.err by a logger.(±¢8Üğ¢ë+H·RMAJORZ
-CODE_SMELL
-Šsquid:S1192"NDefine a constant instead of duplicating this literal " o wzroÅ›cie " 3 times.(óº¸õıÿÿÿÿ8„ñö¡ë+H¿RCRITICALZ
-CODE_SMELL
-gsquid:S1481".Remove this unused "dzielenie" local variable.(Ï’çıÿÿÿÿ8Á×™ ë+H½RMINORZ
-CODE_SMELL
-xsquid:S1854"?Remove this useless assignment to local variable "odejmowanie".(í ªûÿÿÿÿ8Á×™ ë+HµRMAJORZ
-CODE_SMELL
-ksquid:S1854"7Remove this useless assignment to local variable "nwd".(È´ªã8Ò¾ ë+HÄRMAJORZ
-CODE_SMELL
-vsquid:S1854"=Remove this useless assignment to local variable "dzielenie".(Ï’çıÿÿÿÿ8Á×™ ë+H¹RMAJORZ
-CODE_SMELL
-isquid:S1481"0Remove this unused "odejmowanie" local variable.(í ªûÿÿÿÿ8Á×™ ë+H¸RMINORZ
-CODE_SMELL
-l
-squid:S106 "9Replace this use of System.out or System.err by a logger.(Î€ıë8Şšß¡ë+HÀRMAJORZ
-CODE_SMELL
-l
-squid:S106""9Replace this use of System.out or System.err by a logger.(Üš¹’8Ùİ ¢ë+H¾RMAJORZ
-CODE_SMELL
-l
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûı8ãöº¢ë+H´RMAJORZ
-CODE_SMELL
