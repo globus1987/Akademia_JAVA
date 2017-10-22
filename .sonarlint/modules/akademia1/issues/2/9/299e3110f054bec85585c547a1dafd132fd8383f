@@ -1,11 +1,21 @@
 
-’squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(öÊÒ¿8ÿ™Øëï+HË"RCRITICALZ
+—squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Æ²ë¼üÿÿÿÿ8ÿ™Øëï+HÌ&RCRITICALZ
 CODE_SMELL
-—squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Éş»ÿÿÿÿÿ8ÿ™Øëï+HÌ"RCRITICALZ
+\squid:S1068"(Remove this unused "cena" private field.(¶©¦¾8Ú»ª ô+H‘-RMAJORZ
 CODE_SMELL
-’squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÄªÊÛ8ÿ™Øëï+HÍ"RCRITICALZ
+’squid:S00115#"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İÑş8ÿ™Øëï+HÊ&RCRITICALZ
 CODE_SMELL
-—squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Î•µ¥ıÿÿÿÿ8ÿ™Øëï+HÎ"RCRITICALZ
+—squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‡ÁÔ¨ıÿÿÿÿ8ÿ™Øëï+HÉ&RCRITICALZ
 CODE_SMELL
-—squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(º¾ºØúÿÿÿÿ8ÿ™Øëï+HÏ"RCRITICALZ
+asquid:S1068"(Remove this unused "cena" private field.(†Ï÷’ûÿÿÿÿ8Ú»ª ô+H-RMAJORZ
+CODE_SMELL
+asquid:S1068$"(Remove this unused "cena" private field.(ÒŠ³üÿÿÿÿ8Ú»ª ô+H“-RMAJORZ
+CODE_SMELL
+asquid:S1068"(Remove this unused "cena" private field.(–·ûÁÿÿÿÿÿ8Ú»ª ô+H’-RMAJORZ
+CODE_SMELL
+\squid:S1068"(Remove this unused "cena" private field.(©½›¦8ğÊ¨ ô+HŠ-RMAJORZ
+CODE_SMELL
+—squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(®æÔÕÿÿÿÿÿ8ÿ™Øëï+HË&RCRITICALZ
+CODE_SMELL
+—squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Í“ğªıÿÿÿÿ8ÿ™Øëï+HÈ&RCRITICALZ
 CODE_SMELL

@@ -7,16 +7,16 @@ import java.util.Scanner;
  * @author Arkadiusz
  *
  */
-public class SklepNowy {
-	private String nazwaSklepu;
+abstract public class SklepNowy {
+	protected String nazwaSklepu;
 	private static Scanner scanner = new Scanner(System.in);
-	private ListaTowarow listaZatowarowania;
+	protected ListaTowarow listaZatowarowania;
 
 	public ListaTowarow getListaZatowarowania() {
 		return this.listaZatowarowania;
 	}
 
-	public void setListaZatowarowania(final ListaTowarow listaZatowarowania) {
+	private void setListaZatowarowania(final ListaTowarow listaZatowarowania) {
 		this.listaZatowarowania = listaZatowarowania;
 	}
 
@@ -52,7 +52,7 @@ public class SklepNowy {
 		}
 	}
 
-	private void dostawa() {
+	public void dostawa() {
 		for (Towar towar : this.listaZatowarowania.getTowary()) {
 			System.out.println("ile " + towar.nazwaProduktu() + "?");
 			Integer n = Integer.valueOf(0);
@@ -92,7 +92,7 @@ public class SklepNowy {
 		System.out.println("poproszê " + sumaDoZap³aty + " z³");
 	}
 
-	public boolean walidujZakup(final OsobaFizyczna klient, final Towar towarDoZakupu, final Integer iloscDoZakupu) {
+	private boolean walidujZakup(final OsobaFizyczna klient, final Towar towarDoZakupu, final Integer iloscDoZakupu) {
 		if (!this.walidujZakupPelnoletnosci(klient, towarDoZakupu)) {
 			return false;
 		}
@@ -102,12 +102,12 @@ public class SklepNowy {
 		return true;
 	}
 
-	public void sprzedajTowar(final OsobaFizyczna klient, final Towar towarDoZakupu, final Integer iloscDoZakupu) {
+	private void sprzedajTowar(final OsobaFizyczna klient, final Towar towarDoZakupu, final Integer iloscDoZakupu) {
 		klient.KupTowar(towarDoZakupu, iloscDoZakupu);
 		towarDoZakupu.sprzedajTowar(iloscDoZakupu);
 	}
 
-	public boolean walidujZakupPelnoletnosci(final OsobaFizyczna klient, final Towar towarDoZakupu) {
+	private boolean walidujZakupPelnoletnosci(final OsobaFizyczna klient, final Towar towarDoZakupu) {
 		if (klient.pelnoletni() && towarDoZakupu.dlaPelnoletnich()) {
 			return true;
 		} else if (!towarDoZakupu.dlaPelnoletnich()) {
@@ -118,43 +118,14 @@ public class SklepNowy {
 		}
 	}
 
-	public static void main(final String[] args) {
+	abstract void promocja();
 
-		SklepNowy sklepik = new SklepNowy();
-
-		OsobaFizyczna klient = new OsobaFizyczna("Jan", "Nowak", 17);
-		OsobaFizyczna klient2 = new OsobaFizyczna("Marek", "Kowalski", 22);
-
-		Integer x = 0;
-		do {
-			System.out.println("\n1. Dostawa\n" + "2. Sprzedaj Janowi\n" + "3. Sprzedaj Markowi\n"
-					+ "4. Wyœwietl stan\n" + "5. zakoñcz");
-			try {
-				x = Integer.valueOf(scanner.nextLine());
-			} catch (Exception e) {
-				System.out.println("Naucz siê korzystaæ z programu!!!");
-			}
-			switch (x) {
-			case 1:
-				sklepik.dostawa();
-				break;
-			case 2:
-				sklepik.procesSprzedazy(klient);
-				break;
-			case 3:
-				sklepik.procesSprzedazy(klient2);
-				break;
-			case 4:
-				System.out.println(sklepik);
-				System.out.println(klient);
-				System.out.println(klient2);
-				System.out.println("\n");
-				break;
-			default:
-				break;
-			}
-		} while (x.compareTo(5) < 0 && x.compareTo(0) > 0);
-
+	void ustalPromocja() {
+		// TODO Auto-generated method stub
+		for (Towar towar : this.listaZatowarowania.getTowary()) {
+			System.out.println("podaj kwotê promocji dla " + towar.nazwa + " w sklepie " + this.nazwaSklepu);
+			towar.setCenaPromocyjna(BigDecimal.valueOf(5));
+		}
 	}
 
 	@Override

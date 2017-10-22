@@ -1,23 +1,29 @@
 package pl.atena.edu.akademia3.sklep.towar;
 
 import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.EnumSet;
 import java.util.List;
+import java.util.Set;
 
+/**
+ * @author Arkadiusz
+ *
+ */
 public class ListaTowarow {
+
 	private List<Towar> towary;
 
 	public ListaTowarow() {
-		Jogurt jogurt = new Jogurt();
-		Maslo maslo = new Maslo();
-		Mleko mleko = new Mleko();
-		Papierosy papierosy = new Papierosy();
-		Piwo piwo = new Piwo();
 		List<Towar> towaryinicjalne = new ArrayList<>();
-		towaryinicjalne.add(jogurt);
-		towaryinicjalne.add(maslo);
-		towaryinicjalne.add(mleko);
-		towaryinicjalne.add(papierosy);
-		towaryinicjalne.add(piwo);
+		Set<RodzajTowaru> rodzajeTowarow = EnumSet.allOf(RodzajTowaru.class);
+		rodzajeTowarow.forEach(o->towaryinicjalne.add(new Towar(o)));
+		towaryinicjalne.sort(new Comparator<Towar>() {
+			@Override
+			public int compare(final Towar o1, final Towar o2) {
+				return o1.getCena().compareTo(o2.getCena());
+			}
+		});
 		this.towary = towaryinicjalne;	}
 
 	public List<Towar> getTowary() {

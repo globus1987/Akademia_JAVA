@@ -1,0 +1,32 @@
+
+`squid:S16128",Replace this lambda with a method reference.(ŞğÊà8–³ô+Hî,RMINORZ
+CODE_SMELL
+l
+squid:S106-"9Replace this use of System.out or System.err by a logger.(±Ê»ä8Øó¯šô+H¥)RMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(…™Şåùÿÿÿÿ8Øó¯šô+H§)RMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(”µ¦Ü8§ö›ô+Hç,RMAJORZ
+CODE_SMELL
+q
+squid:S106/"9Replace this use of System.out or System.err by a logger.(ºÖºïøÿÿÿÿ8Øó¯šô+H¤)RMAJORZ
+CODE_SMELL
+l
+squid:S106,"9Replace this use of System.out or System.err by a logger.(†Ç©–8§ö›ô+Hò,RMAJORZ
+CODE_SMELL
+q
+squid:S1061"9Replace this use of System.out or System.err by a logger.(ƒÇãˆúÿÿÿÿ8Øó¯šô+H¦)RMAJORZ
+CODE_SMELL
+q
+squid:S106."9Replace this use of System.out or System.err by a logger.(íµ™òûÿÿÿÿ8§ö›ô+Hó,RMAJORZ
+CODE_SMELL
+†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ‰«Î8Íší›ô+H„+RMINORZ
+CODE_SMELL
+l
+squid:S1064"9Replace this use of System.out or System.err by a logger.(±Ê»ä8ÊµÎô+Hô,RMAJORZ
+CODE_SMELL
+q
+squid:S1065"9Replace this use of System.out or System.err by a logger.(ƒÇãˆúÿÿÿÿ8ÊµÎô+Hõ,RMAJORZ
+CODE_SMELL
