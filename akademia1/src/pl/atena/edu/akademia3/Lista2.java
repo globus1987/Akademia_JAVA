@@ -1,4 +1,4 @@
-package pl.atena.edu.akademia.kolekcje;
+package pl.atena.edu.akademia3;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -7,11 +7,9 @@ import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
-import pl.atena.edu.akademia3.Osoba;
-import pl.atena.edu.akademia3.OsobaPrawna;
 import pl.atena.edu.akademia3.sklep.towar.OsobaFizyczna;
 
-public class Lista {
+public class Lista2 {
 
 	private static void printf(final Collection<?> collection) {
 		collection.forEach(o->System.out.println(o.toString()));

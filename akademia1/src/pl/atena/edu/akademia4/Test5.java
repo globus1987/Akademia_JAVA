@@ -11,6 +11,9 @@ public class Test5 {
 	public Test5() {
 	}
 	public static void main(final String[] args) {
+		Double pi = Math.PI;
+		assert pi>0;
+		assert pi<0:pi;
 		IObiekt obiekt = new Rower();
 		Rower rower = (Rower) obiekt;
 		obiekt.przedstawSie();

@@ -2,6 +2,7 @@ package pl.atena.edu.akademia3.sklep.towar;
 
 import java.math.BigDecimal;
 import java.util.Scanner;
+import java.util.logging.Logger;
 
 /**
  * @author Arkadiusz
@@ -11,6 +12,8 @@ abstract public class SklepNowy {
 	protected String nazwaSklepu;
 	private static Scanner scanner = new Scanner(System.in);
 	protected ListaTowarow listaZatowarowania;
+	private static Logger logger = Logger.getLogger("Sklep");
+
 
 	public ListaTowarow getListaZatowarowania() {
 		return this.listaZatowarowania;
@@ -42,13 +45,9 @@ abstract public class SklepNowy {
 	 *            zadana liczba piw do zakupu
 	 * @return informacja czy w magazynie jest wystarczaj¹co du¿o piw
 	 */
-	private boolean sprawdzStanMagazynowy(final Towar towarDoZakupu, final Integer iloscTowaruDoZakupu) {
-		if (towarDoZakupu.podajIloscTowaru().compareTo(iloscTowaruDoZakupu) <= 0) {
-			System.out.println("Nie mamy tyle w magazynie");
-			return false;
-		} else {
-			System.out.println("Mamy tak¹ iloœæ");
-			return true;
+	private void sprawdzStanMagazynowy(final Towar towarDoZakupu, final Integer iloscTowaruDoZakupu) {
+		if (towarDoZakupu.podajIloscTowaru().compareTo(iloscTowaruDoZakupu) < 0) {
+			throw new IllegalArgumentException("Nie mamy tyle na stanie.");
 		}
 	}
 
@@ -59,18 +58,19 @@ abstract public class SklepNowy {
 			try {
 				n = Integer.valueOf(scanner.nextLine());
 			} catch (Exception e) {
-				System.out.println("B³êdne dane!!!");
+				Logger.getGlobal().severe("B³êdne dane!!! Nie podano liczby");
 			}
+			assert n.compareTo(0) >= 0:n;
 			if (n.compareTo(0) > 0) {
 				towar.dostarczTowar(n);
 			} else if (n.compareTo(0) == 0) {
 			} else {
-				System.out.println("B³êdne dane!!!");
+				Logger.getGlobal().severe("B³êdne dane!!! Nie podano liczby");
 			}
 		}
 	}
 
-	public void procesSprzedazy(final OsobaFizyczna klient) {
+	public void procesSprzedazy(final OsobaFizyczna klient) throws UnderAgeException {
 		BigDecimal sumaDoZap³aty = BigDecimal.valueOf(0);
 		for (Towar towar : this.listaZatowarowania.getTowary()) {
 			System.out.println("ile " + towar.nazwaProduktu() + " chce kupiæ klient?");
@@ -78,7 +78,7 @@ abstract public class SklepNowy {
 			try {
 				n = Integer.valueOf(scanner.nextLine());
 			} catch (Exception e) {
-				System.out.println("B³êdne dane!!!");
+				Logger.getGlobal().severe("B³êdne dane!!! Nie podano liczby");
 			}
 			if (n.compareTo(0) == 0) {
 				continue;
@@ -93,10 +93,16 @@ abstract public class SklepNowy {
 	}
 
 	private boolean walidujZakup(final OsobaFizyczna klient, final Towar towarDoZakupu, final Integer iloscDoZakupu) {
-		if (!this.walidujZakupPelnoletnosci(klient, towarDoZakupu)) {
+		try {
+			this.walidujZakupPelnoletnosciZWyjatkiem(klient, towarDoZakupu);
+		} catch (UnderAgeException e) {
+			System.out.println(e.getMessage());
 			return false;
 		}
-		if (!this.sprawdzStanMagazynowy(towarDoZakupu, iloscDoZakupu)) {
+		try {
+			this.sprawdzStanMagazynowy(towarDoZakupu, iloscDoZakupu);
+		}catch (IllegalArgumentException e) {
+			System.out.println(e.getMessage());
 			return false;
 		}
 		return true;
@@ -115,6 +121,12 @@ abstract public class SklepNowy {
 		} else {
 			System.out.println("jesteœ niepe³noletni!!! Spadaj");
 			return false;
+		}
+	}
+	private void walidujZakupPelnoletnosciZWyjatkiem(final OsobaFizyczna klient, final Towar towarDoZakupu) throws UnderAgeException{
+		if (!klient.pelnoletni() && towarDoZakupu.dlaPelnoletnich())
+		{
+			throw new UnderAgeException("Jesteœ niepe³noletni!!! "+klient.getImie()+" "+klient.getNazwisko()+" chce kupiæ "+towarDoZakupu.nazwaProduktu());
 		}
 	}
 
