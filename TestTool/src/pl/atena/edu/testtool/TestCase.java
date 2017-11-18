@@ -20,7 +20,7 @@ public class TestCase {
 	private Risk[] riskList;
 	private RiskObject[] riskObjectList;
 	private RiskSubject[] riskSubjectList;
-
+	private JsonObject JSONRequest;
 	public TestCase() {
 	}
 

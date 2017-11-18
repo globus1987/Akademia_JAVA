@@ -2,7 +2,6 @@ package pl.atena.edu.testtool;
 
 import pl.atena.edu.testtool.metamodel.Risk;
 import pl.atena.edu.testtool.metamodel.RiskSubject;
-
 /**
  * @author Arkadiusz
  *
@@ -17,6 +16,7 @@ public class TestTool {
 		System.out.println(podmiot.getName());
 		Risk ryzyko= new Risk();
 		System.out.println(ryzyko.getPrintName());
+
 	}
 
 }

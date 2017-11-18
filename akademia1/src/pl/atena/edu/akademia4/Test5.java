@@ -4,7 +4,7 @@ import java.util.EnumMap;
 import java.util.EnumSet;
 import java.util.Set;
 
-import pl.atena.edu.akademia3.sklep.towar.RodzajTowaru;
+import pl.atena.edu.akademia3.sklep.RodzajTowaru;
 
 public class Test5 {
 

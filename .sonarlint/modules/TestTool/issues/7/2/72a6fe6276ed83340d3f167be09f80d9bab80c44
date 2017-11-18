@@ -1,0 +1,17 @@
+
+\squid:S1068"*Remove this unused "tcName" private field.(ÅÙå†ûÿÿÿÿHßRMAJORZ
+CODE_SMELL
+^squid:S1068",Remove this unused "tcNumber" private field.(¢ÀœÕúÿÿÿÿHàRMAJORZ
+CODE_SMELL
+bsquid:S1068"0Remove this unused "actualResult" private field.(š¢„ıÿÿÿÿHáRMAJORZ
+CODE_SMELL
+^squid:S1068"2Remove this unused "expectedResult" private field.(Õ£‘HâRMAJORZ
+CODE_SMELL
+csquid:S1068"6Remove this unused "regressionTestCase" private field.(ü‚œáHãRMAJORZ
+CODE_SMELL
+asquid:S1068"/Remove this unused "JSONRequest" private field.(ˆÕ´¸şÿÿÿÿHäRMAJORZ
+CODE_SMELL
+¶squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ş„ÖúÿÿÿÿHåRCRITICALZ
+CODE_SMELL
+‰squid:S00116"VRename this field "JSONRequest" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÕ´¸şÿÿÿÿHæRMINORZ
+CODE_SMELL

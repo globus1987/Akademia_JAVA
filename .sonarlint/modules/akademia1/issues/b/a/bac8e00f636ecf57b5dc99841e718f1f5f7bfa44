@@ -1,0 +1,13 @@
+
+squid:CommentedOutCodeLine&"<This block of commented-out lines of code should be removed.(ˆÿÌù8¹ôòÌö+H¼RMAJORZ
+CODE_SMELL
+asquid:S1604A"(Make this anonymous inner class a lambda(®Ç´Ôþÿÿÿÿ8‚É¢Íö+H÷RMAJORZ
+CODE_SMELL
+Xsquid:S2095"+Close this "Scanner" in a "finally" clause.(‘½ÎüÿÿÿÿHõRBLOCKERZBUG
+k
+squid:S106G"9Replace this use of System.out or System.err by a logger.(ˆ¦ÍZ8·ÎýÌö+HèRMAJORZ
+CODE_SMELL
+\squid:S1604-"(Make this anonymous inner class a lambda(ßûí•8ÖˆÛËö+H°RMAJORZ
+CODE_SMELL
+ssquid:S1075"ARefactor your code to get this URI from a customizable parameter.(ë¹ý€þÿÿÿÿHôRMINORZ
+CODE_SMELL

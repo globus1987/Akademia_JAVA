@@ -1,0 +1,31 @@
+
+squid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(ŽÛ™Ë8Æ­Õ£ô+HÀRMAJORZ
+CODE_SMELL
+l
+squid:S1063"9Replace this use of System.out or System.err by a logger.(×Å÷²8Æ­Õ£ô+HÁRMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(†žžæ8Æ­Õ£ô+HÂRMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ŽÛ™Ë8Æ­Õ£ô+HÃRMAJORZ
+CODE_SMELL
+l
+squid:S1065"9Replace this use of System.out or System.err by a logger.(×Å÷²8Æ­Õ£ô+HÄRMAJORZ
+CODE_SMELL
+jsquid:S1135("2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ8Æ­Õ£ô+HÅRINFOZ
+CODE_SMELL
+asquid:S1604"(Make this anonymous inner class a lambda(å ß‘þÿÿÿÿ8Æ­Õ£ô+HÆRMAJORZ
+CODE_SMELL
+l
+squid:S1068"9Replace this use of System.out or System.err by a logger.(×Å÷²8Æ­Õ£ô+HÇRMAJORZ
+CODE_SMELL
+l
+squid:S106."9Replace this use of System.out or System.err by a logger.(×Å÷²8Æ­Õ£ô+HÈRMAJORZ
+CODE_SMELL
+l
+squid:S1061"9Replace this use of System.out or System.err by a logger.(×Å÷²8Æ­Õ£ô+HÉRMAJORZ
+CODE_SMELL
+asquid:S1604%"(Make this anonymous inner class a lambda(¬³£Žÿÿÿÿÿ8Æ­Õ£ô+HÊRMAJORZ
+CODE_SMELL
+rsquid:UnusedPrivateMethod"+Remove this unused private "printf" method.(ÔìŠ›øÿÿÿÿ8Æ­Õ£ô+HËRMAJORZ
+CODE_SMELL

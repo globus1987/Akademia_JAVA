@@ -1,0 +1,30 @@
+
+psquid:UnusedPrivateMethod&"0Remove this unused private "listaFilter" method.(ñÜ’¯ÿÿÿÿÿH–RMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLineL"<This block of commented-out lines of code should be removed.(¡àŸH—RMAJORZ
+CODE_SMELL
+d
+squid:S106"9Replace this use of System.out or System.err by a logger.(õÖ¨rH˜RMAJORZ
+CODE_SMELL
+j
+squid:S106!"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿH™RMAJORZ
+CODE_SMELL
+j
+squid:S1066"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿHšRMAJORZ
+CODE_SMELL
+j
+squid:S106<"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿH›RMAJORZ
+CODE_SMELL
+j
+squid:S106B"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿHœRMAJORZ
+CODE_SMELL
+Zsquid:S1604"(Make this anonymous inner class a lambda(å ß‘þÿÿÿÿHRMAJORZ
+CODE_SMELL
+Xsquid:S1612",Replace this lambda with a method reference.(õÖ¨rHžRMINORZ
+CODE_SMELL
+squid:S11572"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(æà½ÜHŸRMINORZ
+CODE_SMELL
+squid:S1157:"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(§æÇãH RMINORZ
+CODE_SMELL
+squid:S1157@"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(†è‡ªH¡RMINORZ
+CODE_SMELL

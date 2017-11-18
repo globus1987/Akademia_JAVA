@@ -1,0 +1,50 @@
+
+j
+squid:S1062"9Replace this use of System.out or System.err by a logger.(øí³ÓúÿÿÿÿHÉ-RMAJORZ
+CODE_SMELL
+j
+squid:S1069"9Replace this use of System.out or System.err by a logger.(¿Õ¹þÿÿÿÿHÓ-RMAJORZ
+CODE_SMELL
+e
+squid:S106D"9Replace this use of System.out or System.err by a logger.(Ÿ¸ò¡HÔ-RMAJORZ
+CODE_SMELL
+e
+squid:S106Q"9Replace this use of System.out or System.err by a logger.(Ÿ¸ò¡HÎ-RMAJORZ
+CODE_SMELL
+†squid:S3457…"Q%n should be used in place of \n to produce the platform-specific line separator.(Î¬ë™8Â¦°˜ô+HÍ-RMAJORZ
+CODE_SMELL
+‡squid:ModifiersOrderCheck
+"EReorder the modifiers to comply with the Java Language Specification.(ÿ©¬ö8öçå›ô+HÃ-RMINORZ
+CODE_SMELL
+d
+squid:S106t"9Replace this use of System.out or System.err by a logger.(‡ÛiHÈ-RMAJORZ
+CODE_SMELL
+ssquid:S1126c"AReplace this if-then-else statement by a single return statement.(íÝã±þÿÿÿÿHÑ-RMINORZ
+CODE_SMELL
+jsquid:S1135|"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ8ƒÄ×œô+HÇ-RINFOZ
+CODE_SMELL
+squid:S00117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÚ¨”HÐ-RMINORZ
+CODE_SMELL
+zsquid:UnusedPrivateMethod$"?Remove this unused private "sprawdzPelnoletnoscKlienta" method.(ëÔïõHË-RMAJORZ
+CODE_SMELL
+j
+squid:S106/"9Replace this use of System.out or System.err by a logger.(¾®œàúÿÿÿÿHÂ-RMAJORZ
+CODE_SMELL
+e
+squid:S106\"9Replace this use of System.out or System.err by a logger.(¯ùÕ…HÆ-RMAJORZ
+CODE_SMELL
+|squid:UnusedPrivateMethod":Remove this unused private "setListaZatowarowania" method.(ú»§Þ8¿Îµšô+HÏ-RMAJORZ
+CODE_SMELL
+l
+squid:S106L"9Replace this use of System.out or System.err by a logger.(¨¡Ê‰8ƒÄ×œô+HÅ-RMAJORZ
+CODE_SMELL
+squid:S1192>"QDefine a constant instead of duplicating this literal "BÅ‚Ä™dne dane!!!" 3 times.(Ÿ¸ò¡HÌ-RCRITICALZ
+CODE_SMELL
+e
+squid:S106~"9Replace this use of System.out or System.err by a logger.(’ã§•HÊ-RMAJORZ
+CODE_SMELL
+Wsquid:S00108B")Either remove or fill this block of code.(£ì»ÕHÒ-RMAJORZ
+CODE_SMELL
+e
+squid:S106>"9Replace this use of System.out or System.err by a logger.(Ÿ¸ò¡HÄ-RMAJORZ
+CODE_SMELL
